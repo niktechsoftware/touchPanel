@@ -22,7 +22,7 @@
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://CodeIgniter/';
+$config['base_url'] = 'http://gfinch.co.in/touchPanel/patanjali/';
 
 /*
 |--------------------------------------------------------------------------
