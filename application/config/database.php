@@ -76,9 +76,13 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => '',
+	'username' => 'root',
 	'password' => '',
+<<<<<<< HEAD
 	'database' => 'test',
+=======
+	'database' => 'touchpanel',
+>>>>>>> d8b540c2e1a70eca1e64750a6b0fd333ea40ab86
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
