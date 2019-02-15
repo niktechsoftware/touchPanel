@@ -224,7 +224,7 @@ function myFunction()
                          <?php $this->load->view('header'); ?>
                          <?php  $this->load->view('menu');   ?>
                          <?php  $this->load->view('slider'); ?>
-                            <?php  $this->load->view('footer'); ?>
+                         <?php  $this->load->view('footer'); ?>
              
 
     
