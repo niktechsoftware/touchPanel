@@ -20,7 +20,7 @@
                 </div>
 
                 <div class="span2" style="border:4px solid #1AB255;margin-left:0px">
-                    <a href="<?php echo base_url();?>assets/admitcard.php" target="_blank"><div class="icons-box">
+                    <a href="<?php echo base_url();?>assets/admitcard.php" ><div class="icons-box">
                         <i style="color:red" class="circle big1"><img src="<?php echo base_url();?>assets/img/student.png" alt="Rural Urban Council of Skills & Vocational Studies"></i>
                         <div class=""><h4>Admit Card</h4></div>
                         
@@ -29,7 +29,7 @@
                 </div>
 
                 <div class="span2" style="border:4px solid #1AB255;margin-left:0px">
-                    <a href="<?php echo base_url();?>assets/result.php" target="_blank"><div class="icons-box" >
+                    <a href="<?php echo base_url();?>assets/result.php" ><div class="icons-box" >
                         <i style="color:red" class="circle big2"><img src="<?php echo base_url();?>assets/img/book.png" alt="Rural Urban Council of Skills & Vocational Studies"></i>
                         <div class=""><h4>Result</h4></div>
                     
@@ -47,7 +47,7 @@
                 </div>
                 
                 <div class="span2" style="border:4px solid #1AB255;margin-left:0px">
-                    <a href="<?php echo base_url();?>assets/admission-enquiry.php" target="_blank"><div class="icons-box" >
+                    <a href="<?php echo base_url();?>assets/admission-enquiry.php" ><div class="icons-box" >
                         <i style="color:red" class="circle big4"><img src="<?php echo base_url();?>assets/img/result.png" alt="Rural Urban Council of Skills & Vocational Studies"></i>
                         <div class=""><h4>Apply Admission</h4></div>
                     
@@ -56,7 +56,7 @@
                 </div>
                 
                 <div class="span2" style="border:4px solid #1AB255;margin-left:0px">
-                    <a href="<?php echo base_url();?>assets/apply-center.php" target="_blank"><div class="icons-box">
+                    <a href="<?php echo base_url();?>assets/apply-center.php" ><div class="icons-box">
                         <i style="color:red" class="circle big5"><img src="<?php echo base_url();?>assets/img/new.png" alt="Rural Urban Council of Skills & Vocational Studies"></i>
                         <div class=""><h4>Apply Centre</h4></div>
                     
@@ -98,19 +98,19 @@
       
         <div class="span4" style="padding-top:20px;padding-bottom:20px;">
         
-                    <ul style="color:red;padding:10px;text-align:center" class="text-center"><li style="background: url(img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/apply-center.php" style="color:black" target="_blank"><h5 style="color:black;padding-left:15px;"> Apply Study Center</h5></a></li>
+                    <ul style="color:red;padding:10px;text-align:center" class="text-center"><li style="background: url(img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/apply-center.php" style="color:black" ><h5 style="color:black;padding-left:15px;"> Apply Study Center</h5></a></li>
                     <hr>
-                <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/admission-enquiry.php"  style="color:black" target="_blank"><h5 style="color:black;padding-left:15px;">  Apply Admission</h5></a></li>
+                <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/admission-enquiry.php"  style="color:black" ><h5 style="color:black;padding-left:15px;">  Apply Admission</h5></a></li>
                     <hr>
-                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/student-download.php" target="_blank"  style="color:black"><h5 style="color:black;padding-left:15px;">  Student Downloads</h5></a></li>
+                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/student-download.php"   style="color:black"><h5 style="color:black;padding-left:15px;">  Student Downloads</h5></a></li>
                     <hr>
-                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/center-download.php" target="_blank"  style="color:black"><h5 style="color:black;padding-left:15px;">  Centers Downloads</h5></a></li>
+                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/center-download.php"   style="color:black"><h5 style="color:black;padding-left:15px;">  Centers Downloads</h5></a></li>
                     <hr>
-                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/result.php"  target="_blank" style="color:black"><h5 style="color:black;padding-left:15px;">  Student Result</h5></a></li>
+                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/result.php"   style="color:black"><h5 style="color:black;padding-left:15px;">  Student Result</h5></a></li>
                     <hr>
-                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/student-verification.php" target="_blank"  style="color:black"><h5 style="color:black;padding-left:15px;">  Student Verification</h5></a></li>
+                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/student-verification.php"   style="color:black"><h5 style="color:black;padding-left:15px;">  Student Verification</h5></a></li>
                     <hr>
-                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/admitcard.php"  target="_blank" style="color:black"><h5 style="color:black;padding-left:15px;">  Student Admit Card</h5></a></li>
+                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/admitcard.php"   style="color:black"><h5 style="color:black;padding-left:15px;">  Student Admit Card</h5></a></li>
                     <hr>
                     
                     
@@ -120,19 +120,19 @@
         
                     <ul style="color:red;padding:10px;text-align:center" class="text-center">
                     
-                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/centre-list.php" target="_blank"  style="color:black"><h5 style="color:black;padding-left:15px;">   List of Centers</h5></a></li>
+                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/centre-list.php"   style="color:black"><h5 style="color:black;padding-left:15px;">   List of Centers</h5></a></li>
                     <hr>
-                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/apply-center.php"  target="_blank" style="color:black"><h5 style="color:black;padding-left:15px;">   Academic Center Form</h5></a></li>
+                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/apply-center.php"   style="color:black"><h5 style="color:black;padding-left:15px;">   Academic Center Form</h5></a></li>
                     <hr>
-                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/downloads/Examination%20Center%20Request%20Form.pdf" target="_blank"  style="color:black"><h5 style="color:black;padding-left:15px;">   Exam Center Form</h5></a></li>
+                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/downloads/Examination%20Center%20Request%20Form.pdf"   style="color:black"><h5 style="color:black;padding-left:15px;">   Exam Center Form</h5></a></li>
                     <hr>
-                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/downloads/Re-Registration-Form.pdf" target="_blank"  style="color:black"><h5 style="color:black;padding-left:15px;">   Re Registration Form</h5></a></li>
+                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/downloads/Re-Registration-Form.pdf"   style="color:black"><h5 style="color:black;padding-left:15px;">   Re Registration Form</h5></a></li>
                     <hr>
-                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/downloads/marksheet-correction-form.pdf"  target="_blank" style="color:black"><h5 style="color:black;padding-left:15px;">  Marksheet Correction </h5></a></li>
+                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/downloads/marksheet-correction-form.pdf"   style="color:black"><h5 style="color:black;padding-left:15px;">  Marksheet Correction </h5></a></li>
                     <hr>
-                    <li style="background: url(img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/downloads/dublicate%20marksheet%20form.pdf" target="_blank"  style="color:black"><h5 style="color:black;padding-left:15px;"> Duplicate Marksheet Form</h5></a></li>
+                    <li style="background: url(img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/downloads/dublicate%20marksheet%20form.pdf"   style="color:black"><h5 style="color:black;padding-left:15px;"> Duplicate Marksheet Form</h5></a></li>
                     <hr>
-                    <li style="background: url(img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/downloads/Rural%20Urban%20Council%20of%20Skills%20Prospectus.pdf"  target="_blank" tyle="color:black"><h5 style="color:black;padding-left:15px;">  Prospectus Download</h5></a></li>
+                    <li style="background: url(img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/downloads/Rural%20Urban%20Council%20of%20Skills%20Prospectus.pdf"   tyle="color:black"><h5 style="color:black;padding-left:15px;">  Prospectus Download</h5></a></li>
                     
                     </ul>
                         </div>
@@ -144,11 +144,11 @@
                     <hr>
                     <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black"><h5 style="color:black;padding-left:15px;">  Practical Exam Datesheet</h5></a></li>
                     <hr>
-                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/contact.php"  target="_blank" style="color:black"><h5 style="color:black;padding-left:15px;">   Complaint & Helpline</h5></a></li>
+                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/contact.php"   style="color:black"><h5 style="color:black;padding-left:15px;">   Complaint & Helpline</h5></a></li>
                     <hr>
-                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/course-list.php" target="_blank"  style="color:black"><h5 style="color:black;padding-left:15px;">   Courses List</h5></a></li>
+                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/course-list.php"   style="color:black"><h5 style="color:black;padding-left:15px;">   Courses List</h5></a></li>
                     <hr>
-                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="centers-terms.php" target="_blank" style="color:black"><h5 style="color:black;padding-left:15px;">   Terms & Conditions </h5></a></li>
+                    <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="centers-terms.php"  style="color:black"><h5 style="color:black;padding-left:15px;">   Terms & Conditions </h5></a></li>
                     <hr>
                     <li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>assets/approvals.php"  style="color:black"><h5 style="color:black;padding-left:15px;">   Our Affiliations</h5></a></li>
                     

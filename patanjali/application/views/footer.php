@@ -56,12 +56,12 @@
                             <h3 style="text-align:center">Downloads</h3>
                             <div class="">
                             <ul style="text-align:center">
-                            <li><a href="<?php echo base_url();?>assets/downloads/Admission-Form.pdf" target="_blank"><h4 style="color:white">Admission Form</h4></a></li>
-                            <li><a href="<?php echo base_url();?>assets/downloads/Rural%20Urban%20Council%20of%20Skills%20Prospectus.pdf" target="_blank"><h4 style="color:white">Prospectus</h4></a></li>
-                            <li><a href="<?php echo base_url();?>assets/downloads/Examination%20Center%20Request%20Form.pdf" target="_blank"><h4 style="color:white">Exam Center Form</h4></a></li>
-                            <li><a href="<?php echo base_url();?>assets/downloads/dublicate%20marksheet%20form.pdf" target="_blank"><h4 style="color:white">Duplicate Marksheet</h4></a></li>
-                            <li><a href="<?php echo base_url();?>assets/downloads/marksheet-correction-form.pdf" target="_blank"><h4 style="color:white">Correction Form</h4></a></li>
-                            <li><a href="<?php echo base_url();?>assets/downloads/Re-Registration-Form.pdf" target="_blank"><h4 style="color:white">Re Registration</h4></a></li>
+                            <li><a href="<?php echo base_url();?>assets/downloads/Admission-Form.pdf" ><h4 style="color:white">Admission Form</h4></a></li>
+                            <li><a href="<?php echo base_url();?>assets/downloads/Rural%20Urban%20Council%20of%20Skills%20Prospectus.pdf" ><h4 style="color:white">Prospectus</h4></a></li>
+                            <li><a href="<?php echo base_url();?>assets/downloads/Examination%20Center%20Request%20Form.pdf" ><h4 style="color:white">Exam Center Form</h4></a></li>
+                            <li><a href="<?php echo base_url();?>assets/downloads/dublicate%20marksheet%20form.pdf" ><h4 style="color:white">Duplicate Marksheet</h4></a></li>
+                            <li><a href="<?php echo base_url();?>assets/downloads/marksheet-correction-form.pdf" ><h4 style="color:white">Correction Form</h4></a></li>
+                            <li><a href="<?php echo base_url();?>assets/downloads/Re-Registration-Form.pdf" ><h4 style="color:white">Re Registration</h4></a></li>
                             
                             </ul>
                                 <div class="clear"></div>
@@ -74,12 +74,12 @@
                             <h3 style="text-align:center">Student Zone</h3>
                             <div class="">
                             <ul style="text-align:center">
-                            <li><a href="<?php echo base_url();?>assets/admission-enquiry.php" target="_blank"><h4 style="color:white">Apply Admission</h4></a></li>
-                            <li><a href="<?php echo base_url();?>assets/result-list.php" target="_blank"><h4 style="color:white">Result Zone</h4></a></li>
-                            <li><a href="<?php echo base_url();?>assets/admitcard-list.php" target="_blank"><h4 style="color:white">Admit Card</h4></a></li>
-                            <li><a href="<?php echo base_url();?>assets/student-verification.php" target="_blank"><h4 style="color:white">Online Verification</h4></a></li>
-                            <li><a href="<?php echo base_url();?>assets/exam-download.php" target="_blank"><h4 style="color:white">Datesheet</h4></a></li>
-                            <li><a href="<?php echo base_url();?>assets/syllabus.php" target="_blank"><h4 style="color:white">Syllabus</h4></a></li>
+                            <li><a href="<?php echo base_url();?>assets/admission-enquiry.php" ><h4 style="color:white">Apply Admission</h4></a></li>
+                            <li><a href="<?php echo base_url();?>assets/result-list.php" ><h4 style="color:white">Result Zone</h4></a></li>
+                            <li><a href="<?php echo base_url();?>assets/admitcard-list.php" ><h4 style="color:white">Admit Card</h4></a></li>
+                            <li><a href="<?php echo base_url();?>assets/student-verification.php" ><h4 style="color:white">Online Verification</h4></a></li>
+                            <li><a href="<?php echo base_url();?>assets/exam-download.php" ><h4 style="color:white">Datesheet</h4></a></li>
+                            <li><a href="<?php echo base_url();?>assets/syllabus.php" ><h4 style="color:white">Syllabus</h4></a></li>
                             
                             </ul>
                                 <div class="clear"></div>
@@ -91,12 +91,12 @@
                             <h3 style="text-align:center">Centers Zone</h3>
                             <div class="">
                             <ul style="text-align:center">
-                            <li><a href="<?php echo base_url();?>assets/downloads/Admission-Form.pdf" target="_blank"><h4 style="color:white">Admission Form</h4></a></li>
-                            <li><a href="<?php echo base_url();?>assets/apply-center.php" target="_blank"><h4 style="color:white">Apply Center</h4></a></li>
-                            <li><a href="<?php echo base_url();?>assets/centre-list.php" target="_blank"><h4 style="color:white">Centers List</h4></a></li>
-                            <li><a href="<?php echo base_url();?>assets/approvals.php" target="_blank"><h4 style="color:white">Affiliation</h4></a></li>
-                            <li><a href="<?php echo base_url();?>assets/approvals-download.php" target="_blank"><h4 style="color:white">Approvals</h4></a></li>
-                            <li><a href="<?php echo base_url();?>assets/sitemap.php" target="_blank"><h4 style="color:white">All Pages Sitemap</h4></a></li>
+                            <li><a href="<?php echo base_url();?>assets/downloads/Admission-Form.pdf" ><h4 style="color:white">Admission Form</h4></a></li>
+                            <li><a href="<?php echo base_url();?>assets/apply-center.php" ><h4 style="color:white">Apply Center</h4></a></li>
+                            <li><a href="<?php echo base_url();?>assets/centre-list.php" ><h4 style="color:white">Centers List</h4></a></li>
+                            <li><a href="<?php echo base_url();?>assets/approvals.php" ><h4 style="color:white">Affiliation</h4></a></li>
+                            <li><a href="<?php echo base_url();?>assets/approvals-download.php" ><h4 style="color:white">Approvals</h4></a></li>
+                            <li><a href="<?php echo base_url();?>assets/sitemap.php" ><h4 style="color:white">All Pages Sitemap</h4></a></li>
                             
                             </ul>
                                 <div class="clear"></div>

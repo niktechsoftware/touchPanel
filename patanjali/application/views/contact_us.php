@@ -25,31 +25,31 @@
 		<div style="background:#68cdfb;margin-bottom:5px;">
        
 					<ul style="color:red;padding:10px;" class="text-center">
-					<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="sitemap.html"  style="color:black" target="_blank"><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">All Pages Sitemap</p></a></li>
+					<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="sitemap.html"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">All Pages Sitemap</p></a></li>
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
-				    <li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="student-verification.html"  style="color:black" target="_blank"><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Verification</p></a></li>
+				    <li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="student-verification.html"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Verification</p></a></li>
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
-					<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="apply-center.html"  style="color:black" target="_blank"><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Apply Center</p></a></li>
+					<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="apply-center.html"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Apply Center</p></a></li>
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
-					<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="center-login-panel.html"  style="color:black" target="_blank"><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Center Login Panel</p></a></li>
+					<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="center-login-panel.html"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Center Login Panel</p></a></li>
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
-					<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="center-download.html"  style="color:black" target="_blank"><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Center Download</p></a></li>
+					<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="center-download.html"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Center Download</p></a></li>
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
-					<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="admission-enquiry.html"  style="color:black" target="_blank"><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Apply Admission Zone</p></a></li>
+					<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="admission-enquiry.html"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Apply Admission Zone</p></a></li>
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
-					<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="course-list.html"  style="color:black" target="_blank"><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Courses & Duration</p></a></li>
+					<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="course-list.html"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Courses & Duration</p></a></li>
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
-					<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="student-download.html"  style="color:black" target="_blank"><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Student Downloads</p></a></li>
+					<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="student-download.html"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Student Downloads</p></a></li>
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
-					<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="centers-terms.html"  style="color:black" target="_blank"><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Center Terms & Conditions</p></a></li>
+					<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="centers-terms.html"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Center Terms & Conditions</p></a></li>
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
-					<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="approvals.html"  style="color:black" target="_blank"><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Recognition</p></a></li>
+					<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="approvals.html"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Recognition</p></a></li>
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
-					<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="centre-list.html"  style="color:black" target="_blank"><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Centers List</p></a></li>
+					<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="centre-list.html"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Centers List</p></a></li>
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
-					<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="approvals-download.html"  style="color:black" target="_blank"><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Approval Downloads</p></a></li>
+					<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="approvals-download.html"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Approval Downloads</p></a></li>
 <hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
-<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="all-centers.html"  style="color:black" target="_blank"><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">All Centers</p></a></li>
+<li style="background: url(img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="all-centers.html"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">All Centers</p></a></li>
 					
 					</ul></div></div>
                         </div>
@@ -202,7 +202,7 @@
               <i class="fa fa-map-marker" style="font-size:20px;color:white"></i><span style="font-size:18px;color:white;padding-left:10px">JOINT VENTURE: BLUEWAY SKY INFOTECH & EDUCATION, DELHI</span><br/><br/>
              <i class="fa fa-envelope" style="font-size:20px;color:white"></i><span style="font-size:18px;color:white;padding-left:10px"> RTI Appellate Authority: HOD & SECRETARY<br/>Address: G-29/9, Sector-3, 1st Floor, Rohini, New Delhi-85.<br/>Email: secretary@rucsvs.edu.in<br><br>
              <i class="fa fa-envelope" style="font-size:20px;color:white"></i><span style="font-size:18px;color:white;padding-left:10px"> SEND POSTAL, COURIER, PARCEL, DOCUMENT, LETTER<br/>Address: G-29/9, Sector-3, 1st Floor, Rohini, New Delhi-85.<br><br>
-             Pay Fees only in Our Mentioned Accounts <a href="payment.html" target="_blank"><font color="#FFFFFF"><strong>CLICK HERE</strong></font></a>
+             Pay Fees only in Our Mentioned Accounts <a href="payment.html" ><font color="#FFFFFF"><strong>CLICK HERE</strong></font></a>
  </span><br/><br/>
  
 			</div>
