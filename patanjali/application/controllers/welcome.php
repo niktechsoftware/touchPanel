@@ -89,10 +89,14 @@ echo "inserted...";
 	public function apply1()
 	{   
 		$this->load->view('apply1');
-		
-		
-		
+			
 	}
+	public function login1()
+	{   
+		$this->load->view('login1');
+			
+	}
+
 	public function aboutUs()
 	{   
 		$this->load->view('about_us');

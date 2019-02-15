@@ -18,12 +18,12 @@
 <tr>       
 <td>1.</td>        
 <td><p>Dec 2018 Practical Examination Notice </p></td>        
-<td><a href="http://www.ruralurbanskills.edu.in/downloads/Practical-Exam-Dec-2018-Notice.jpg" target="_blank" ><i class="fa fa-download" aria-hidden="true"></i> Download Now</a></td>  
+<td><a href="http://www.ruralurbanskills.edu.in/downloads/Practical-Exam-Dec-2018-Notice.jpg"  ><i class="fa fa-download" aria-hidden="true"></i> Download Now</a></td>  
  </tr>  
 <tr>       
 <td>2.</td>        
 <td><p>Dec 2018 Practical Examination Datesheet</p></td>        
-<td><a href="http://www.ruralurbanskills.edu.in/downloads/Dec-2018-Examination-Practical-Datesheet.pdf" target="_blank" ><i class="fa fa-download" aria-hidden="true"></i> Download Now</a></td>  
+<td><a href="http://www.ruralurbanskills.edu.in/downloads/Dec-2018-Examination-Practical-Datesheet.pdf"  ><i class="fa fa-download" aria-hidden="true"></i> Download Now</a></td>  
  </tr>  
 
 
@@ -32,13 +32,13 @@
 <tr>       
 <td>3.</td>        
 <td><p>Dec 2018 Examination Datesheet</p></td>        
-<td><a href="http://www.ruralurbanskills.edu.in/downloads/datesheet/dec2018/RUCSVS-Dec-2018-Examination-Datesheet.pdf" target="_blank" ><i class="fa fa-download" aria-hidden="true"></i> Download Now</a></td>  
+<td><a href="http://www.ruralurbanskills.edu.in/downloads/datesheet/dec2018/RUCSVS-Dec-2018-Examination-Datesheet.pdf"  ><i class="fa fa-download" aria-hidden="true"></i> Download Now</a></td>  
  </tr>      
  
  <tr>        
  <td>4.</td>        
  <td><p>Exam Rule & Regulation for Centers & Students</p></td>       
- <td><a href="http://www.ruralurbanskills.edu.in/downloads/Exam%20Rule%20&%20Regulation.pdf" target="_blank" ><i class="fa fa-download" aria-hidden="true"></i> Download Now</a></td> 
+ <td><a href="http://www.ruralurbanskills.edu.in/downloads/Exam%20Rule%20&%20Regulation.pdf"  ><i class="fa fa-download" aria-hidden="true"></i> Download Now</a></td> 
  </tr>      
  
  <tr>        

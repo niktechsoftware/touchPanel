@@ -17,7 +17,7 @@
 <div class="container">		<div class="row">		<div class="span12 text-center" ><h3 style="background:#FEC400;color:white;padding:8px;">News/ Press Release Download Zone</h3><div class="table-responsive" style="margin-top:20px;font-size:14px">   <table class="table table-bordered">    <thead>      <tr class="colorb">        <th class="text-center"><h4>Sr. No</h4></th>        <th  class="text-center"><h4>Name Of Documents<h4/></th>        <th class="text-center"><h4>Download Links</h4></th>      </tr>    </thead>    <tbody><tr>       
 <td>1.</td>        
 <td><p>Examination News Update in Rajasthan Centers</p></td>        
-<td><a href="http://www.ruralurbanskills.edu.in/img/exam-news.jpg" target="_blank" ><i class="fa fa-download" aria-hidden="true"></i> Download Now</a></td>  
+<td><a href="http://www.ruralurbanskills.edu.in/img/exam-news.jpg"  ><i class="fa fa-download" aria-hidden="true"></i> Download Now</a></td>  
  </tr>      
  
  
