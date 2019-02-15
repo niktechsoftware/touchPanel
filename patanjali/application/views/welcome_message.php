@@ -192,21 +192,7 @@ function myFunction()
 
 
 
-    function popup() {
-              // body...
-        
-                        
-             //  var theurl="http://localhost/CodeIgniter/";
-             //   var width="400";
-             //   var height="400";
-             //   var  top="100";
-             //  var left="100";
-
-             // var setting="toolbar=no,menubar=no,scrollbar=no,resizable=yes,width="+width+",height="+height+",top="+top+",left="+left;
-             // var popup=open(theurl,"box",setting);
-
-    }
-    window.onload=popup;
+  
 </script>
 </head>
 <body onload="myFunction()">
