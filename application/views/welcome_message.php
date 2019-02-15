@@ -64,10 +64,10 @@ $('.window').hide();
 });
 
 
-function myFunction() 
-{
-  alert( "Maharashi Bhrigu  Yog Sansthan , Bharatvarsh was established under the aegis of Maharashi Bhrigu  Yog Sansthan Trust to conduct Early Childhood Care, Skills & Vocational based programmes Education & Training. Our aim to start RUCSVS is by giving them better life and making self-reliant by fostering financial inadequacy and beautification of children living in the remote area and by promoting women's education with education and employment oriented educationMaharashi Bhrigu  Yog Sansthan , Bharatvarsh was established under the aegis of Maharashi Bhrigu  Yog Sansthan Trust to conduct Early Childhood Care, Skills & Vocational based programmes Education & Training. Our aim to start RUCSVS is by giving them better life and making self-reliant by fostering financial inadequacy and beautification of children living in the remote area and by promoting women's education with education and employment oriented education");
-}
+// function myFunction() 
+// {
+//   alert( "Maharashi Bhrigu  Yog Sansthan , Bharatvarsh was established under the aegis of Maharashi Bhrigu  Yog Sansthan Trust to conduct Early Childhood Care, Skills & Vocational based programmes Education & Training. Our aim to start RUCSVS is by giving them better life and making self-reliant by fostering financial inadequacy and beautification of children living in the remote area and by promoting women's education with education and employment oriented educationMaharashi Bhrigu  Yog Sansthan , Bharatvarsh was established under the aegis of Maharashi Bhrigu  Yog Sansthan Trust to conduct Early Childhood Care, Skills & Vocational based programmes Education & Training. Our aim to start RUCSVS is by giving them better life and making self-reliant by fostering financial inadequacy and beautification of children living in the remote area and by promoting women's education with education and employment oriented education");
+// }
     
     </script>
     
