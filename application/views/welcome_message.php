@@ -173,9 +173,11 @@ function myFunction()
      <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/source/jsCalendar.css">
 
         <!-- jsCalendar -->
+        <link rel="stylesheet" href="<?php echo base_url();?>assets/css/calendar.css"/>
+        <script type="text/javascript" src="<?php echo base_url();?>assets/calender.js"></script>
         <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
 
-        <script type="text/javascript" src="<?php echo base_url();?>assets/source/jsCalendar.js"></script>
+        <!-- <script type="text/javascript" src="<?php echo base_url();?>assets/source/jsCalendar.js"></script> -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
 
 

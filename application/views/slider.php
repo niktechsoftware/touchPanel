@@ -45,7 +45,9 @@
                     </ul>
                 </div>                        
             </div>
+
         </div>
+
      <!-- start: Flexslider -->
     <div class="span6" >
             <div style="padding:10px">
@@ -100,8 +102,9 @@
             <p style="text-align:justify;font-size:13px;color: darkgreen;">Maharashi Bhrigu  Yog Sansthan , Bharatvarsh was established under the aegis of Maharashi Bhrigu  Yog Sansthan Trust to conduct Early Childhood Care, Skills & Vocational based programmes Education & Training. Our aim to start RUCSVS is by giving them better life and making self-reliant by fostering financial inadequacy and beautification of children living in the remote area and by promoting women's education with education and employment oriented education. 
 
 </p>
-            <p style="text-align:justify;font-size:13px;color: darkorange;">It will be our priority to educate people by promoting technical education with Indian culture. Because the technical education plays an important role in the human resource development of the country by generating efficient mass power, increasing industrial production and improving the quality of life of the people.</p><div align="center"><font color="#FF3300" size="-0.5"><strong>Holidays 2019 <a href="#">CLICK HERE</a> | Calender 2019<a href="#" > CLICK HERE</a> </strong></font></div>
-            
+          <center>
+            <div class="auto-jsCalendar material-theme text-center"></div>
+            </center>
            
 
             </div>
