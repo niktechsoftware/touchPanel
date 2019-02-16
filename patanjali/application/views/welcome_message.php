@@ -64,10 +64,10 @@ $('.window').hide();
 });
 
 
-function myFunction() 
-{
-  alert( "Maharashi Bhrigu  Yog Sansthan , Bharatvarsh was established under the aegis of Maharashi Bhrigu  Yog Sansthan Trust to conduct Early Childhood Care, Skills & Vocational based programmes Education & Training. Our aim to start RUCSVS is by giving them better life and making self-reliant by fostering financial inadequacy and beautification of children living in the remote area and by promoting women's education with education and employment oriented educationMaharashi Bhrigu  Yog Sansthan , Bharatvarsh was established under the aegis of Maharashi Bhrigu  Yog Sansthan Trust to conduct Early Childhood Care, Skills & Vocational based programmes Education & Training. Our aim to start RUCSVS is by giving them better life and making self-reliant by fostering financial inadequacy and beautification of children living in the remote area and by promoting women's education with education and employment oriented education");
-}
+// function myFunction() 
+// {
+//   alert( "Maharashi Bhrigu  Yog Sansthan , Bharatvarsh was established under the aegis of Maharashi Bhrigu  Yog Sansthan Trust to conduct Early Childhood Care, Skills & Vocational based programmes Education & Training. Our aim to start RUCSVS is by giving them better life and making self-reliant by fostering financial inadequacy and beautification of children living in the remote area and by promoting women's education with education and employment oriented educationMaharashi Bhrigu  Yog Sansthan , Bharatvarsh was established under the aegis of Maharashi Bhrigu  Yog Sansthan Trust to conduct Early Childhood Care, Skills & Vocational based programmes Education & Training. Our aim to start RUCSVS is by giving them better life and making self-reliant by fostering financial inadequacy and beautification of children living in the remote area and by promoting women's education with education and employment oriented education");
+// }
     
     </script>
     
@@ -174,8 +174,10 @@ function myFunction()
 
         <!-- jsCalendar -->
         <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
-
-        <script type="text/javascript" src="<?php echo base_url();?>assets/source/jsCalendar.js"></script>
+       <link rel="stylesheet" href="<?php echo base_url();?>assets/css/calendar.css"/>
+        <script type="text/javascript" src="<?php echo base_url();?>assets/calender.js"></script>
+        
+        <!-- <script type="text/javascript" src="<?php echo base_url();?>assets/source/jsCalendar.js"></script> -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
 
 
