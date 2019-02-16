@@ -24,14 +24,14 @@
 								<div class="">
 												
 										
-												<img style="border:4px dotted #00A859;border-radius:50%" src="img/admission.png">
+												<img style="border:4px dotted #00A859;border-radius:50%" src="<?php echo base_url();?>assets/img/logoh.jpg">
 											
 										
 									
 									<div style="border:none;" class="border-1 team-info text-center p-a20 p-t40">
 										<h4 class="text-primary " style="color:red">Mr. K. Bhardwaj </h4>
 										<p style="color:blue;font-weight:600">Managing Director / Founder</p>
-										<p style="margin-bottom:0px; line-height:0px;color:green;font-weight:600">director@ruralurbanskills.edu.in</p>
+										
 									</div>
 								</div>
 							</div>
@@ -42,11 +42,11 @@
 			<!-- start: Flexslider -->
 			<div class="span3" style="text-align:center">
 			<div style="background:#e4e7ed;padding:30px;margin:10px">
-					<img style="border:4px dotted #00A859;border-radius:50%" src="img/admission.png">
+					<img style="border:4px dotted #00A859;border-radius:50%" src="<?php echo base_url();?>assets/img/logoh.jpg">
 					<div>
 										<h4 class="text-primary " style="color:red">Ms. Sonika Tiwari </h4>
 										<h5 style="color:blue;">Secretary & HOD</h5>
-										<h5 style="margin:5px;color:green;">secretary@ruralurbanskills.edu.in</h5>
+										<!-- <h5 style="margin:5px;color:green;">secretary@ruralurbanskills.edu.in</h5> -->
 										
 					</div>
 			</div>
@@ -54,11 +54,11 @@
 			</div>
 			<div class="span3" style="text-align:center">
 			<div style="background:#e4e7ed;padding:30px;margin:10px">
-					<img style="border:4px dotted #00A859;border-radius:50%" src="img/admission.png">
+					<img style="border:4px dotted #00A859;border-radius:50%" src="<?php echo base_url();?>assets/img/logoh.jpg">
 					<div>
 										<h4 class="text-primary " style="color:red">Mr. Manglesh Kumar </h4>
 										<h5 style="color:blue;">Controller of Examination</h5>
-										<h5 style="margin:5px;color:green;">coe@ruralurbanskills.edu.in</h5>
+										<!-- <h5 style="margin:5px;color:green;">coe@ruralurbanskills.edu.in</h5> -->
 										
 					</div>
 			</div>
@@ -66,11 +66,11 @@
 			</div>
 		<div class="span3" style="text-align:center">
 			<div style="background:#e4e7ed;padding:30px;margin:10px">
-					<img style="border:4px dotted #00A859;border-radius:50%" src="img/admission.png">
+					<img style="border:4px dotted #00A859;border-radius:50%" src="<?php echo base_url();?>assets/assets/img/logoh.jpg">
 					<div>
 										<h4 class="text-primary " style="color:red">Mr. Sachin Tiwari </h4>
 										<h5 style="color:blue;">Sr. Marketing Head</h5>
-										<h5 style="margin:5px;color:green;">studycenter@ruralurbanskills.edu.in</h5>
+										<!-- <h5 style="margin:5px;color:green;">studycenter@ruralurbanskills.edu.in</h5> -->
 										
 					</div>
 			</div>
@@ -78,11 +78,11 @@
 			</div>
 			<div class="span3" style="text-align:center">
 			<div style="background:#e4e7ed;padding:30px;margin:10px">
-					<img style="border:4px dotted #00A859;border-radius:50%" src="img/admission.png">
+					<img style="border:4px dotted #00A859;border-radius:50%" src="<?php echo base_url();?>assets/img/logoh.jpg">
 					<div>
 										<h4 class="text-primary " style="color:red">Mr. Nitish Bhardwaj </h4>
 										<h5 style="color:blue;">Account Management </h5>
-										<h5 style="margin:5px;color:green;">account@ruralurbanskills.edu.in</h5>
+										<!-- <h5 style="margin:5px;color:green;">account@ruralurbanskills.edu.in</h5> -->
 										
 					</div>
 			</div>
@@ -93,7 +93,7 @@
 			<!-- start: Flexslider -->
 			<div class="span3" style="text-align:center">
 			<div style="background:#e4e7ed;padding:30px;margin:10px">
-					<img style="border:4px dotted #00A859;border-radius:50%" src="img/admission.png">
+					<img style="border:4px dotted #00A859;border-radius:50%" src="<?php echo base_url();?>assets/assets/img/logoh.jpg">
 					<div>
 										<h4 class="text-primary " style="color:red">Ms. Shalu </h4>
 										<h5 style="color:blue;">Telecaller</h5>
@@ -105,7 +105,7 @@
 			</div>
 			<div class="span3" style="text-align:center">
 			<div style="background:#e4e7ed;padding:30px;margin:10px">
-					<img style="border:4px dotted #00A859;border-radius:50%" src="img/admission.png">
+					<img style="border:4px dotted #00A859;border-radius:50%" src="<?php echo base_url();?>assets/img/logoh.jpg">
 					<div>
 										<h4 class="text-primary " style="color:red">Ms. Savita </h4>
 										<h5 style="color:blue;">Telecaller & Counselor</h5>
@@ -117,7 +117,7 @@
 			</div>
 		<div class="span3" style="text-align:center">
 			<div style="background:#e4e7ed;padding:30px;margin:10px">
-					<img style="border:4px dotted #00A859;border-radius:50%" src="img/admission.png">
+					<img style="border:4px dotted #00A859;border-radius:50%" src="<?php echo base_url();?>assets/img/logoh.jpg">
 					<div>
 										<h4 class="text-primary " style="color:red">Ms. Pari  </h4>
 										<h5 style="color:blue;">Telecaller</h5>
@@ -129,7 +129,7 @@
 			</div>
 			<div class="span3" style="text-align:center">
 			<div style="background:#e4e7ed;padding:30px;margin:10px">
-					<img style="border:4px dotted #00A859;border-radius:50%" src="img/admission.png">
+					<img style="border:4px dotted #00A859;border-radius:50%" src="<?php echo base_url();?>assets/img/logoh.jpg">
 					<div>
 										<h4 class="text-primary " style="color:red">Mr. Anil Kumar </h4>
 										<h5 style="color:blue;">Office Admin </h5>
@@ -144,11 +144,11 @@
 			<!-- start: Flexslider -->
 			<div class="span3" style="text-align:center">
 			<div style="background:#e4e7ed;padding:30px;margin:10px">
-					<img style="border:4px dotted #00A859;border-radius:50%" src="img/admission.png">
+					<img style="border:4px dotted #00A859;border-radius:50%" src="<?php echo base_url();?>assets/img/logoh.jpg">
 					<div>
 										<h4 class="text-primary " style="color:red">Mr. Prithvi Singh </h4>
 										<h5 style="color:blue;">Web Designing</h5>
-										<h5 style="margin:5px;color:green;">info@ruralurbanskills.edu.in</h5>
+										<!-- <h5 style="margin:5px;color:green;">info@ruralurbanskills.edu.in</ -->
 										
 					</div>
 			</div>
@@ -156,7 +156,7 @@
 			</div>
 				<div class="span3" style="text-align:center">
 			<div style="background:#e4e7ed;padding:30px;margin:10px">
-					<img style="border:4px dotted #00A859;border-radius:50%" src="img/admission.png">
+					<img style="border:4px dotted #00A859;border-radius:50%" src="<?php echo base_url();?>assets/img/logoh.jpg">
 					<div>
 										<h4 class="text-primary " style="color:red">Mr. Alok Verma </h4>
 										<h5 style="color:blue;">Legal Advisor</h5>
@@ -168,7 +168,7 @@
 			</div>
             <div class="span3" style="text-align:center">
 			<div style="background:#e4e7ed;padding:30px;margin:10px">
-					<img style="border:4px dotted #00A859;border-radius:50%" src="img/admission.png">
+					<img style="border:4px dotted #00A859;border-radius:50%" src="<?php echo base_url();?>assets/img/logoh.jpg">
 					<div>
 										<h4 class="text-primary " style="color:red">Mr. Hitesh </h4>
 										<h5 style="color:blue;">Digital Marketing</h5>
@@ -180,7 +180,7 @@
 			</div>
             <div class="span3" style="text-align:center">
 			<div style="background:#e4e7ed;padding:30px;margin:10px">
-					<img style="border:4px dotted #00A859;border-radius:50%" src="img/admission.png">
+					<img style="border:4px dotted #00A859;border-radius:50%" src="<?php echo base_url();?>assets/img/logoh.jpg">
 					<div>
 										<h4 class="text-primary " style="color:red">Mr. Durga </h4>
 										<h5 style="color:blue;">Accountancy & Legal Advisor</h5>
