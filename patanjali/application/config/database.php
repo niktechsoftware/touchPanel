@@ -51,12 +51,8 @@ $active_record = TRUE;
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'gfincpnt_pata';
 $db['default']['password'] = 'rahul!123singh';
-<<<<<<< HEAD
+
 $db['default']['database'] = 'gfincpnt_patanjali';
-=======
-// $db['default']['password'] = '';
-$db['default']['database'] = 'patanjali';
->>>>>>> 88849a472cfa2ce6a4a79b0d3691b40597147a92
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
