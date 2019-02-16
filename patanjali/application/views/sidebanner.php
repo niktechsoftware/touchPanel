@@ -40,7 +40,7 @@
 					<hr>
 				<li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><h5 style="color:black;padding-left:15px;"> Student Results</h5></a></li>
 					<hr>
-					<li style="background: url(<?php echo base_url();?>assets/<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><h5 style="color:black;padding-left:15px;"> Approvals</h5></a></li>
+					<li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><h5 style="color:black;padding-left:15px;"> Approvals</h5></a></li>
 					<hr>
 					<li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><h5 style="color:black;padding-left:15px;"> Student Downloads</h5></a></li>
 					<hr>
@@ -48,7 +48,7 @@
 					<hr>
 					<li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><h5 style="color:black;padding-left:15px;"> Apply Study Center/ Franchise</h5></a></li>
 					<hr>
-					<li style="background: url(<?php echo base_url();?>assets//bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><h5 style="color:black;padding-left:15px;"> ISO Certification</h5></a></li>
+					<li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><h5 style="color:black;padding-left:15px;"> ISO Certification</h5></a></li>
 					
 					</ul></marquee></div>
                         </div>
