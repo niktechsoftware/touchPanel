@@ -1,4 +1,4 @@
-<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+7<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 /*
 |--------------------------------------------------------------------------
@@ -22,7 +22,8 @@
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://gfinch.co.in/touchPanel/patanjali/';
+$config['base_url'] = 'http://localhost/gfinch.co.in/touchPanel/patanjali/';
+// $config['base_url'] = 'http://gfinch.co.in/touchPanel/patanjali/';
 
 /*
 |--------------------------------------------------------------------------
