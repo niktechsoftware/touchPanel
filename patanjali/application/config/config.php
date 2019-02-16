@@ -23,7 +23,7 @@
 |
 */
 
-$config['base_url'] = 'http://gfinch.co.in/touchPanel/patanjali/'
+$config['base_url'] = 'http://gfinch.co.in/touchPanel/patanjali/';
 /*
 |--------------------------------------------------------------------------
 | Index File

@@ -66,7 +66,7 @@
 			</div>
 		<div class="span3" style="text-align:center">
 			<div style="background:#e4e7ed;padding:30px;margin:10px">
-					<img style="border:4px dotted #00A859;border-radius:50%" src="<?php echo base_url();?>assets/assets/img/logoh.jpg">
+					<img style="border:4px dotted #00A859;border-radius:50%" src="<?php echo base_url();?>assets/img/logoh.jpg">
 					<div>
 										<h4 class="text-primary " style="color:red">Mr. Sachin Tiwari </h4>
 										<h5 style="color:blue;">Sr. Marketing Head</h5>
@@ -93,11 +93,11 @@
 			<!-- start: Flexslider -->
 			<div class="span3" style="text-align:center">
 			<div style="background:#e4e7ed;padding:30px;margin:10px">
-					<img style="border:4px dotted #00A859;border-radius:50%" src="<?php echo base_url();?>assets/assets/img/logoh.jpg">
+					<img style="border:4px dotted #00A859;border-radius:50%" src="<?php echo base_url();?>assets/img/logoh.jpg">
 					<div>
 										<h4 class="text-primary " style="color:red">Ms. Shalu </h4>
 										<h5 style="color:blue;">Telecaller</h5>
-										<h5 style="margin:5px;color:green;">09899822580</h5>
+										<!-- <h5 style="margin:5px;color:green;">09899822580</h5> -->
 										
 					</div>
 			</div>
@@ -109,7 +109,7 @@
 					<div>
 										<h4 class="text-primary " style="color:red">Ms. Savita </h4>
 										<h5 style="color:blue;">Telecaller & Counselor</h5>
-										<h5 style="margin:5px;color:green;">09560192015</h5>
+										<!-- <h5 style="margin:5px;color:green;">09560192015</h5> -->
 										
 					</div>
 			</div>
@@ -121,7 +121,7 @@
 					<div>
 										<h4 class="text-primary " style="color:red">Ms. Pari  </h4>
 										<h5 style="color:blue;">Telecaller</h5>
-										<h5 style="margin:5px;color:green;">09266673036</h5>
+										<!-- <h5 style="margin:5px;color:green;">09266673036</h5> -->
 										
 					</div>
 			</div>
@@ -160,7 +160,7 @@
 					<div>
 										<h4 class="text-primary " style="color:red">Mr. Alok Verma </h4>
 										<h5 style="color:blue;">Legal Advisor</h5>
-										<h5 style="margin:5px;color:green;">Sr. Advocate Suprem Court</h5>
+										<!-- <h5 style="margin:5px;color:green;">Sr. Advocate Suprem Court</h5> -->
 										
 					</div>
 			</div>
@@ -172,7 +172,7 @@
 					<div>
 										<h4 class="text-primary " style="color:red">Mr. Hitesh </h4>
 										<h5 style="color:blue;">Digital Marketing</h5>
-										<h5 style="margin:5px;color:green;">Sr. SMO & SEM</h5>
+										<!-- <h5 style="margin:5px;color:green;">Sr. SMO & SEM</h5> -->
 										
 					</div>
 			</div>
@@ -184,7 +184,7 @@
 					<div>
 										<h4 class="text-primary " style="color:red">Mr. Durga </h4>
 										<h5 style="color:blue;">Accountancy & Legal Advisor</h5>
-										<h5 style="margin:5px;color:green;">Chartered Accountant</h5>
+									<!-- 	<h5 style="margin:5px;color:green;">Chartered Accountant</h5> -->
 										
 					</div>
 			</div>

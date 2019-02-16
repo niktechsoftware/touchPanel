@@ -1202,15 +1202,21 @@
                 <strong></strong>																																			  	  
 			  </tbody>
               
-          </table>       <div align="center"><font color="#CC3300">For New Center Min. 15KM Distance from Existing Center is Mandatory</font> </div>          </div>                           </div>  <br>   <br>                                               
-          <div> <div align="center"><a href="apply-center.html" class="btn btn-success btn-large" >Apply Center</a></div><br>
-            <div align="center"><a href="course-list.html" class="btn btn-success btn-large" >Click For Courses List</a></div>
+          </table>       <div align="center"><font color="#CC3300">For New Center Min. 15KM Distance from Existing Center is Mandatory</font> </div>       
+             </div>                    
+                    </div>  
+                    <br>   <br>                                               
+          <div> <div align="center"><a href="#" class="btn btn-success btn-large" >Apply Center</a></div><br>
+            <div align="center"><a href="#" class="btn btn-success btn-large" >Click For Courses List</a></div>
 			<br>
-            <div align="center"><a href="center-benefits.html" class="btn btn-success btn-large" >Our Center Benefits</a></div>
+            <div align="center"><a href="#" class="btn btn-success btn-large" >Our Center Benefits</a></div>
 			<br>
-            <div align="center"><a href="payment.html" class="btn btn-success btn-large" >Payment Option</a></div>
-			<br></div></div>	  			</div>		
-         this is center list page.........
+            <div align="center"><a href="#" class="btn btn-success btn-large" >Payment Option</a></div>
+			<br>
+		</div>
+	</div>	  	
+			</div>		
+        
            <?php $this->load->view('footer'); ?>
       </div>
 </body>
