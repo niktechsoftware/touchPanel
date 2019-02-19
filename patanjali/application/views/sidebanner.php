@@ -36,7 +36,7 @@
 		<div style="background:white;margin-bottom:5px;">
          <marquee direction="up" onMouseOver="this.stop();" onMouseOut="this.start();">
 				
-					<ul style="color:red;padding:10px;" class="text-center"><li style="background: url(img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><h5 style="color:black;padding-left:15px;"> Apply Admission</h5></a></li>
+					<ul style="color:red;padding:10px;" class="text-center"><li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><h5 style="color:black;padding-left:15px;"> Apply Admission</h5></a></li>
 					<hr>
 				<li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><h5 style="color:black;padding-left:15px;"> Student Results</h5></a></li>
 					<hr>
