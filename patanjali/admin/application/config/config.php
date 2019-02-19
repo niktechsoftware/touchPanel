@@ -17,7 +17,7 @@
 |
 */
 // $config['base_url'] = 'http://localhost/touchPanel/patanjali/admin/';
-$config['base_url'] = 'http://touchPanel/patanjali/admin/';
+$config['base_url'] = 'http://gfinch.co.in/touchPanel/patanjali/admin/';
 
 /*
 |--------------------------------------------------------------------------
