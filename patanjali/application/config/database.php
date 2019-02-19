@@ -49,13 +49,14 @@ $active_group = 'default';
 $active_record = TRUE;
 
 // $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'gfincpnt_pata';
-$db['default']['password'] = 'rahul!123singh';
+// $db['default']['username'] = 'pata';
+// $db['default']['password'] = 'rahul!123singh';
+// $db['default']['database'] = 'patanjali';
 
-$db['default']['database'] = 'gfincpnt_patanjali';
-// $db['default']['username'] = 'root';
-// $db['default']['password'] = '';
 
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'root';
+$db['default']['password'] = '';
 $db['default']['database'] = 'patanjali';
 
 $db['default']['dbdriver'] = 'mysqli';

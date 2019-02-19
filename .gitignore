@@ -29,3 +29,9 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.sublime-project
 /tests/tests/
 /tests/results/
+application/config/config.php
+application/config/database.php
+patanjali/admin/application/config/config.php
+patanjali/admin/application/config/database.php
+patanjali/application/config/config.php
+patanjali/application/config/database.php
