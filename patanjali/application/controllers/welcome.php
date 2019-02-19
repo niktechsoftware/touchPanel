@@ -30,13 +30,18 @@ class Welcome extends CI_Controller {
 		
 		
 	}
-
+public function reciept()
+	{   
+		$this->load->view('rcpt');
+			
+	}
 	
 	public function emp_form()
 	{   
 		$save = array(
 			'name' =>    $this->input->post('name')  , 
-            'careof' =>    $this->input->post('optradio')  , 
+
+
             'father_name' =>    $this->input->post('fathername')  , 
             'mother_name' =>    $this->input->post('mothername')  , 
              'gender' =>    $this->input->post('optradio1')  , 
@@ -58,39 +63,43 @@ class Welcome extends CI_Controller {
           'exam_name' =>    $this->input->post('AppliedExamination')  , 
            'exam_location' =>    $this->input->post('ExaminationLocation')  , 
            'adhar_no' =>    $this->input->post('adharno')  , 
-           'image' =>    $this->input->post('img')  , 
-         'thumb' =>    $this->input->post('thumbimg')  , 
+           'image' =>    $this->input->post('img') , 
+         'thumb' =>    $this->input->post('thumbimg') , 
            
-	);
+	       );
 
 		 $this->load->model('user');
-	if($this->user->savedata($save))
-	{
-	
-echo "inserted...";
-		//flash message login
-	//	redirect('login');
-	}
-	else{
+		 $id=$this->user->savedata($save);
+	 if($id)
+     	{
+          $stu_id="Stud".date("ymd", strtotime($this->input->post("dateofbirth"))).$id;
+         
+          $update=array(
+          	'stud_id' =>$stu_id, 
+          );
+           $this->db->where('id',$id);
+          $up=$this->db->update('registration_table',$update);
+          if($up)
+          {
+	      $this->db->where('id',$id);
+         $data['adc']=$this->db->get('registration_table')->result();
+         $this->load->view('rcpt',$data);
+          
+		}
+
+	   }
+	else  {
 		echo " not inserted...";
 		//flash message login failed
-	}
+	   }		
 		
-		
-	}
-
-
-
-
-
-
-
-	
-	public function apply1()
+	  }
+	  public function apply1()
 	{   
 		$this->load->view('apply1');
 			
 	}
+
 	public function login1()
 	{   
 		$this->load->view('login1');

@@ -48,7 +48,7 @@
                                         <li><a href="<?php echo base_url();?>index.php/welcome/admitcard" >Admit Card</a></li>
                                         <li><a href="<?php echo base_url();?>index.php/welcome/Result" >Result</a></li>
                                         <li><a href="<?php echo base_url();?>index.php/welcome/Datesheet" >Datesheet</a></li>
-                                        <li><a href="<?php echo base_url();?>index.php/welcome/Addmission" >Admission Form</a></li>
+                                        <li><a href="<?php echo base_url();?>index.php/welcome/Apply" >Admission Form</a></li>
                                         <li><a href="<?php echo base_url();?>index.php/welcome/Syllabus">Syllabus</a></li>
                                         <li><a href="<?php echo base_url();?>index.php/welcome/Courses" >Courses</a></li>
                                         <li><a href="<?php echo base_url();?>index.php/welcome/studenti">Student Benefits</a></li>
@@ -70,7 +70,7 @@
                                 </ul>
                                 </li>
                                 <li style="border-right:1px solid white;background:linear-gradient(to bottom, #FFB88C,#DE6262);"><a href="<?php echo base_url();?>index.php/welcome/center" ><b>Centre List</b></a></li>
-                                <li style="border-right:1px solid white;background:linear-gradient(to bottom, #FFB88C,#DE6262);"><a href="<?php echo base_url();?>index.php/welcome/apply" ><b>Apply Centre</b></a></li>
+                                <li style="border-right:1px solid white;background:linear-gradient(to bottom, #FFB88C,#DE6262);"><a href="<?php echo base_url();?>index.php/welcome/Addmission" ><b>Apply Centre</b></a></li>
                                 <li style="border-right:1px solid white;background:linear-gradient(to bottom, #FFB88C,#DE6262);"><a href="<?php echo base_url();?>index.php/welcome/contact" ><b>Contact</b></a></li>
                             </ul>
                         </div>

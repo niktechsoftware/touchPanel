@@ -8,7 +8,7 @@
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
 				    <li style="background: url(<?php echo base_url();?>assets/img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Verification</p></a></li>
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
-					<li style="background: url(<?php echo base_url();?>assets/img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Apply Center</p></a></li>
+					<li style="background: url(<?php echo base_url();?>assets/img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>index.php/welcome/Addmission"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Apply Center</p></a></li>
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
 					<li style="background: url(<?php echo base_url();?>assets/img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Center Login Panel</p></a></li>
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
@@ -36,8 +36,14 @@
 		<div style="background:white;margin-bottom:5px;">
          <marquee direction="up" onMouseOver="this.stop();" onMouseOut="this.start();">
 				
-					<ul style="color:red;padding:10px;" class="text-center"><li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><h5 style="color:black;padding-left:15px;"> Apply Admission</h5></a></li>
-					<hr>
+					<ul style="color:red;padding:10px;" class="text-center"><li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><h5 style="color:black;padding-left:15px;"><?php $data=$this->db->get('notice')->result();
+
+						foreach($data as $key):
+							echo $key->message;
+						endforeach;
+
+					?></h5></a></li>
+				<!-- 	<hr>
 				<li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><h5 style="color:black;padding-left:15px;"> Student Results</h5></a></li>
 					<hr>
 					<li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><h5 style="color:black;padding-left:15px;"> Approvals</h5></a></li>
@@ -50,7 +56,7 @@
 					<hr>
 					<li style="background: url(<?php echo base_url();?>assets/img/bullet.png) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><h5 style="color:black;padding-left:15px;"> ISO Certification</h5></a></li>
 					
-					</ul></marquee></div>
+				 -->	</ul></marquee></div>
                         </div>
 						
 						</div>

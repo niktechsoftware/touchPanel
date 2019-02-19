@@ -3,9 +3,9 @@
 <head>
 	<title></title>
 		
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+
+
 
 <style type="text/css">
   .txt{
@@ -16,13 +16,17 @@
     color: white;
      font-size: 20px;
   }
+  .formControl{
+        display: block;
+    width:95%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+  }
 </style>
-<script type="text/javascript">
-function test() 
-{
-  alert("Your Ragistration is submitted..");
-}
-</script>
+
 </head>
 <body>
 	<div id="wrapper" style="border-radius:10px;border:2px solid blue">
@@ -31,12 +35,7 @@ function test()
          <?php $this->load->view('menu'); ?>
                              <h3 style="color: blue; text-align: center;text-decoration:underline; ">Examination Application Form: CCC Plus(CCCP)</h3> 
 
-<form action="<?php echo base_url();?>index.php/welcome/emp_form" method="post" >
-  
-
-
-
-
+<form class="form-group" action="<?php echo base_url();?>index.php/welcome/emp_form" method="post" >
 
 <table class=" table table-bordered ">
   <tr class="head_tr">
@@ -45,7 +44,7 @@ function test()
   <tr>
     <th class="text-left txt">Enter your name</th>
     <td>
-       <input type="text" class="form-control" placeholder="Enter Your Name" name="name" required=""></td>
+       <input type="text" class="formControl" placeholder="Enter Your Name" name="name" required=""></td>
   </tr>
   <tr>
     <th class="text-left txt">Care Of</th>
@@ -58,13 +57,13 @@ function test()
    <tr>
     <th class="text-left txt">Enter Your Father Name</th>
     <td>
-       <input type="text" class="form-control" placeholder="Enter Your Name Father Name" name="fathername" required="">
+       <input type="text" class="formControl" placeholder="Enter Your Name Father Name" name="fathername" required="">
       </td>
   </tr>
    <tr>
     <th class="text-left txt">Enter Your Mother Name</th>
     <td>
-      <input type="text" class="form-control" placeholder="Enter Your Name Mother Name" name="mothername" required="">
+      <input type="text" class="formControl" placeholder="Enter Your Name Mother Name" name="mothername" required="">
       </td>
   </tr>
    <tr>
@@ -77,14 +76,14 @@ function test()
    <tr>
     <th class="text-left txt">Date Of Birth</th>
     <td>
-       <input type="Date" class="form-control" placeholder="Enter Your Date Of Birth" name="dateofbirth" required="">
+       <input type="Date" class="formControl" placeholder="Enter Your Date Of Birth" name="dateofbirth" required="">
        
       </td>
   </tr>
    <tr>
     <th class="text-left txt">Category</th>
     <td>
-        <select id="inputState" class="form-control" name="Category" required="">
+        <select id="inputState" class="formControl" name="Category" required="">
         <option>Choose</option>
         <option value="GENERAL">GENERAL</option>
         <option value="OBC">OBC</option>
@@ -96,7 +95,7 @@ function test()
    <tr>
     <th class="text-left txt">Occupation</th>
     <td>
-        <select id="inputState" class="form-control" name="Occupation" required="">
+        <select id="inputState" class="formControl" name="Occupation" required="">
         <option>Choose</option>
         <option value="Govt.">Govt.</option>
         <option value="Private">Private</option>
@@ -119,13 +118,13 @@ function test()
    <tr>
     <th class="text-left txt">Phone No</th>
     <td>
-       <input type="text" class="form-control" placeholder="Enter Your Phone No" name="PhoneNo" >
+       <input type="text" class="formControl" placeholder="Enter Your Phone No" name="PhoneNo" >
       </td>
   </tr>
   <tr>
     <th class="text-left txt">Mobile</th>
     <td>
-       <input type="Number" class="form-control" id="inputEmail4" placeholder="Enter Your Mob. No." name="mobile" required="">
+       <input type="Number" class="formControl" id="inputEmail4" placeholder="Enter Your Mob. No." name="mobile" required="">
       </td>
   </tr>
   <tr class="head_tr">
@@ -134,19 +133,19 @@ function test()
   <tr>
     <th class="text-left txt">Address line 1</th>
     <td>
-        <input type="text" class="form-control" placeholder="Enter Your Address" name="Address1" required="">
+        <input type="text" class="formControl" placeholder="Enter Your Address" name="Address1" required="">
       </td>
   </tr>
   <tr>
     <th class="text-left txt">Address line 2</th>
     <td>
-         <input type="text" class="form-control" placeholder="Enter Your Address" name="Address2" required="">
+         <input type="text" class="formControl" placeholder="Enter Your Address" name="Address2" required="">
       </td>
   </tr>
   <tr>
     <th class="text-left txt">City Name</th>
     <td>
-       <select id="inputState" class="form-control" name="CityName" required="">
+       <select id="inputState" class="formControl" name="CityName" required="">
         <option>Select</option>
         <option value="UP">Up</option>
         <option value="Manipur">Manipur</option>
@@ -157,7 +156,7 @@ function test()
   <tr>
     <th class="text-left txt">State Name</th>
     <td>
-       <select id="inputState" class="form-control" name="StateName" required="">
+       <select id="inputState" class="formControl" name="StateName" required="">
         <option>Select</option>
         <option value="UP">Up</option>
         <option value="Manipur">Manipur</option>
@@ -169,7 +168,7 @@ function test()
   <tr>
     <th class="text-left txt">District Name</th>
     <td>
-        <select id="inputState" class="form-control" name="DistrictName" required="">
+        <select id="inputState" class="formControl" name="DistrictName" required="">
         <option >Select</option>
         <option value="kanpur">kanpur</option>
         <option value="Agra">Agra</option>
@@ -186,7 +185,7 @@ function test()
   <tr>
     <th class="text-left txt">Highest Educational Qualification</th>
     <td>
-        <select id="inputState" class="form-control" name="hQualification" required="">
+        <select id="inputState" class="formControl" name="hQualification" required="">
         <option>Select</option>
         <option value="Btech">B.tech</option>
         <option value="Diploma">Diploma</option>
@@ -199,7 +198,7 @@ function test()
   <tr>
     <th class="text-left txt">Year Of Passing</th>
     <td>
-         <input type="Number" class="form-control" placeholder="Year Of Passing" name="PassingYear" required="">
+         <input type="Number" class="formControl" placeholder="Year Of Passing" name="PassingYear" required="">
 
       </td>
   </tr>
@@ -209,7 +208,7 @@ function test()
   <tr>
     <th class="text-left txt">Select State Of Accredited Institute</th>
     <td>
-        <select id="inputState" class="form-control" name=" AccreditedState" required="">
+        <select id="inputState" class="formControl" name=" AccreditedState" required="">
         <option>Select</option>
         <option value="Up">Up</option>
         <option value="Manipur">Manipur</option>
@@ -221,7 +220,7 @@ function test()
   <tr>
     <th class="text-left txt">Select Center Name  Of Accredited Institute </th>
     <td>
-        <select id="inputState" class="form-control" name="Accreditedcenter" required="">
+        <select id="inputState" class="formControl" name="Accreditedcenter" required="">
         <option>Select</option>
         <option value="ramlala">Ramlala</option>
         <option value="Unzip">Unzip</option>
@@ -233,7 +232,7 @@ function test()
   <tr>
     <th class="text-left txt">Applied For Examination</th>
     <td>
-         <select id="inputState" class="form-control" name="AppliedExamination" required="">
+         <select id="inputState" class="formControl" name="AppliedExamination" required="">
         <option>Select</option>
         <option value="CCC">CCC< /option>
         <option value="railway">RAILWAY</option>
@@ -245,7 +244,7 @@ function test()
   <tr>
     <th class="text-left txt">Examination Location</th>
     <td>
-       <select id="inputState" class="form-control" name="ExaminationLocation" required="">
+       <select id="inputState" class="formControl" name="ExaminationLocation" required="">
         <option>Select</option>
         <option value="Up">UP</option>
         <option value="Agra">AGRA</option>
@@ -262,7 +261,7 @@ function test()
   <tr>
     <th class="text-left txt">Adhaar Card Number</th>
     <td>
-       <input type="Number" class="form-control" placeholder="Enter Your Adhaar Card Number" name="adharno" required="">
+       <input type="Number" class="formControl" placeholder="Enter Your Adhaar Card Number" name="adharno" required="">
       </td>
   </tr>
   <tr>
@@ -281,7 +280,7 @@ function test()
 
 </table>
 <center>
-    <button class="btn btn-success" onclick="test()">Submit </button>
+   <input type="submit" name="submit" value="Register Me" class="btn btn-primary">
    <a class="btn btn-primary" href="<?php echo base_url();?>index.php/welcome/apply">Back</a>
  
   </center>
