@@ -8,7 +8,7 @@
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
 				    <li style="background: url(<?php echo base_url();?>assets/img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Verification</p></a></li>
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
-					<li style="background: url(<?php echo base_url();?>assets/img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>index.php/welcome/Addmission"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Apply Center</p></a></li>
+					<li style="background: url(<?php echo base_url();?>assets/img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="<?php echo base_url();?>index.php/welcome/Apply_Center"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Apply Center</p></a></li>
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
 					<li style="background: url(<?php echo base_url();?>assets/img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Center Login Panel</p></a></li>
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">

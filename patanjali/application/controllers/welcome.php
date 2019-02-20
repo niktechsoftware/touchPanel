@@ -30,6 +30,36 @@ public function reciept()
 		$this->load->view('rcpt');
 			
 	}
+
+	public function center_register()
+	{   
+		$data = array(
+			'center_name' =>    $this->input->post('name') ,
+			'email' =>          $this->input->post('email')  ,
+			'password' =>       $this->input->post('password') ,
+			'c_password' =>     $this->input->post('ConfirmPassword') ,
+			'address' =>        $this->input->post('address') ,
+			'state' =>          $this->input->post('state') ,
+			'director_name' =>  $this->input->post('d_name') ,
+			'pan' =>            $this->input->post('pan') ,
+			'landmark'  =>       $this->input->post('landmark') ,
+			'adhar'  =>          $this->input->post('adhar') ,
+			'land_agree' =>      $this->input->post('land_agr') ,
+			'district' =>        $this->input->post('district'),
+			'upload_file' =>     $this->input->post('file') , 
+
+		);
+			
+      $this->load->model('user');
+     $bc= $this->user->center($data);
+      if($bc)
+      {
+      	echo "center inserted...";
+      }
+   else{
+   	echo "not inserted..";
+   }
+	}
 	
 	public function emp_form()
 	{   
@@ -225,7 +255,7 @@ public function reciept()
 			
 	}
 
-		public function addmission()
+		public function Apply_Center()
 	{   
 		$this->load->view('addmission');
 		

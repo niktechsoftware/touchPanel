@@ -70,7 +70,7 @@
                                 </ul>
                                 </li>
                                 <li style="border-right:1px solid white;background:linear-gradient(to bottom, #FFB88C,#DE6262);"><a href="<?php echo base_url();?>index.php/welcome/center" ><b>Centre List</b></a></li>
-                                <li style="border-right:1px solid white;background:linear-gradient(to bottom, #FFB88C,#DE6262);"><a href="<?php echo base_url();?>index.php/welcome/Addmission" ><b>Apply Centre</b></a></li>
+                                <li style="border-right:1px solid white;background:linear-gradient(to bottom, #FFB88C,#DE6262);"><a href="<?php echo base_url();?>index.php/welcome/Apply_Center" ><b>Apply Centre</b></a></li>
                                 <li style="border-right:1px solid white;background:linear-gradient(to bottom, #FFB88C,#DE6262);"><a href="<?php echo base_url();?>index.php/welcome/contact" ><b>Contact</b></a></li>
                             </ul>
                         </div>

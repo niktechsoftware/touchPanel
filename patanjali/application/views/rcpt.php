@@ -1,7 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+  <title></title>
+ <!--datatable export pdf button lib -->
+
+
+<!--pdf generator-->
+<script type="text/javascript">
+    function myFunction() {
+  window.print();
+}
+</script>
+<!-- end pdf generator-->
+
+
 </head>
 <body>
 
@@ -11,8 +23,8 @@
          
             
     <?php foreach($adc as $abc)
-    {	?>
-<table class=" table table-bordered" >
+    { ?>
+<table class=" table table-bordered" id="tblrcpt">
   <tr class="head_tr">
   <th colspan="2"> <span style="font-size: 15px;">1. Personal Detail</span> </th>
     </tr>
@@ -134,7 +146,7 @@
     <th class="text-left txt">Left Thumb Impression</th>
    <td><?php echo $abc->thumb;?></td>
   </tr>
- 
+ <tr><td colspan="2"><button onclick="myFunction()">Print this page</button></td></tr>
 
 </table>
 <?php }?>

@@ -9,7 +9,11 @@ public function savedata($save)
 		return $id;
 	}
 
-
+public function center($data)
+	{
+		$ab=$this->db->insert('center',$data);
+		return $ab;
+			}
 }
 
 

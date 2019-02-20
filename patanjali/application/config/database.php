@@ -48,16 +48,16 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-// $db['default']['hostname'] = 'localhost';
-// $db['default']['username'] = 'pata';
-// $db['default']['password'] = 'rahul!123singh';
-// $db['default']['database'] = 'patanjali';
-
-
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
+$db['default']['username'] = 'pata';
+$db['default']['password'] = 'rahul!123singh';
 $db['default']['database'] = 'patanjali';
+
+
+// $db['default']['hostname'] = 'localhost';
+// $db['default']['username'] = 'root';
+// $db['default']['password'] = '';
+// $db['default']['database'] = 'patanjali';
 
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
