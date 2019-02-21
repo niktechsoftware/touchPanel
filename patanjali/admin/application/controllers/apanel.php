@@ -57,9 +57,33 @@ function __construct()
             redirect('apanel/addformDetail','refresh');
              
 		  }
+}
 
+
+	public function addformDetail_center()
+	{
+		$id = $this->uri->segment(3);
+		$this->db->where("c_id",$id);
+		
+		$data['abc'] = $this->db->get("center")->row();
+		$data1=array(
+		 'status'=>1,
+		   );
+          $this->db->where("c_id",$id);
+          $update= $this->db->update("center",$data1);
+         if($update)
+          {
+                redirect('apanel/printRegister_center','refresh');
+                
+          }
+		  else
+		  {
+            redirect('apanel/addformDetail_center','refresh');
+             
+		  }
 
 	}
+
 	public function certifi_creation()
 	{
 		$id = $this->uri->segment(3);
@@ -164,12 +188,32 @@ function __construct()
 		$data['footerJs'] = "admin/footerJs/studentRegisterJs";
 		$this->load->view("include/admin/mainContent",$data);
 	}
+	public function Active_center()
+	{
+		$data['title'] = "Active Student";
+		$data['smallTitle'] = "Student Register";
+		$data['bigTitle'] = "Student Detail";
+		$data['body'] = "admin/active_center";
+		$data['headerCss'] = "admin/headerCss/studentRegisterCss";
+		$data['footerJs'] = "admin/footerJs/studentRegisterJs";
+		$this->load->view("include/admin/mainContent",$data);
+	}
 	public function Inactive()
 	{
 		$data['title'] = "Inactive Student ";
 		$data['smallTitle'] = "Student Register";
 		$data['bigTitle'] = "Student Detail";
 		$data['body'] = "admin/inactive";
+		$data['headerCss'] = "admin/headerCss/studentRegisterCss";
+		$data['footerJs'] = "admin/footerJs/studentRegisterJs";
+		$this->load->view("include/admin/mainContent",$data);
+	}
+	public function Inactive_center()
+	{
+		$data['title'] = "Inactive Center ";
+		$data['smallTitle'] = "Center Register";
+		$data['bigTitle'] = "Center Detail";
+		$data['body'] = "admin/inactive_center";
 		$data['headerCss'] = "admin/headerCss/studentRegisterCss";
 		$data['footerJs'] = "admin/footerJs/studentRegisterJs";
 		$this->load->view("include/admin/mainContent",$data);
@@ -197,7 +241,16 @@ function __construct()
 		$this->load->view("include/admin/mainContent",$data);
 	}
 
-
+public function printRegister_center()
+	{
+		$data['title'] = "Student Detail";
+		$data['smallTitle'] = "Student Detail/Register Student";
+		$data['bigTitle'] = "Student Detail/Register Student";
+		$data['body'] = "admin/registrationform_center";
+		$data['headerCss'] = "admin/headerCss/dashboardCss";
+		$data['footerJs'] = "admin/footerJs/dashboardJs";
+		$this->load->view("include/admin/mainContent",$data);
+	}
 
 	
 	public function studentList()

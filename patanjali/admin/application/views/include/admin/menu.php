@@ -13,7 +13,7 @@
                                 <li><a href="<?php echo base_url();?>apanel/noticeBoard">Notice Board</a></li>
                                 <li><a href="<?php echo base_url();?>apanel/contact"> Enquiry Contact</a></li>
                                   <li><a href="<?php echo base_url();?>apanel/printRegister">Registration Submit Student Detail</a></li>
-                                
+                                 <li><a href="<?php echo base_url();?>apanel/printRegister_center">Registration Submit Center Detail</a></li>
                             </ul>
                         </li>
                         <li class="droplink"><a href="#"><span class="fa fa-mobile"></span><p>&nbsp;&nbsp;&nbsp;SMS TAB</p><span class="arrow"></span></a>
@@ -47,6 +47,18 @@
                           <ul class="sub-menu">
                                 <li><a href="<?php echo base_url();?>apanel/Active">Active</a></li>
                                 <li><a href="<?php echo base_url();?>apanel/Inactive">Inactive</a></l>
+                            </ul>
+                        </li>
+
+                        <li class="droplink">
+                            <a href="#">
+                                <span class="fa fa-briefcase"></span>
+                                <p>&nbsp;&nbsp;&nbsp;Register Center Active/Iactive</p>
+                                <span class="arrow"></span>
+                            </a>
+                          <ul class="sub-menu">
+                                <li><a href="<?php echo base_url();?>apanel/Active_center">Active</a></li>
+                                <li><a href="<?php echo base_url();?>apanel/Inactive_center">Inactive</a></l>
                             </ul>
                         </li>
                     </ul>

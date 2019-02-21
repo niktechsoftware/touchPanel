@@ -9,7 +9,8 @@
   var x = document.getElementById("form1");
   if (x.style.display == "none") {
     x.style.display = "block";
-     x.style.display = "show";
+    // x.style.display = "show";
+   // x.style.display = "none";
   } else {
     x.style.display = "none";
   }
@@ -91,7 +92,7 @@
 </center>
 </div>
 
-<div class="span9" id="form1">       
+<div class="span9" id="form1" style="display:none;">       
 
 
 
