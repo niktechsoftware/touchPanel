@@ -15,18 +15,18 @@
     x.style.display = "none";
   }
 }
-
-     var check = function() {
-                             if (document.getElementById('password').value ==
-                               document.getElementById('ConfirmPassword').value) {
-                               document.getElementById('cpass').style.color = 'green';
-                               document.getElementById('cpass').innerHTML = 'matching';
-                             } else {
-                               document.getElementById('cpass').style.color = 'red';
-                               document.getElementById('cpass').innerHTML = 'not matching';
-                             }
-                           }
-  
+</script>
+<script>
+var check = function() {
+  if (document.getElementById('pass').value ==
+    document.getElementById('ConfirmPassword').value) {
+    document.getElementById('cpass').style.color = 'green';
+    document.getElementById('cpass').innerHTML = 'matching';
+  } else {
+    document.getElementById('cpass').style.color = 'red';
+    document.getElementById('cpass').innerHTML = 'not matching';
+  }
+}
 </script>
 
 
@@ -53,19 +53,19 @@
 				<!-- start: Contact Form -->
 				<div id="contact-form" style="background:#f3b007;border-radius:5px;padding:16px 20px">
 					
-					<form method="post" action="" name="resultfrm">
+					<form method="post" action="<?php echo base_url();?>index.php/welcome/center_login" name="resultfrm">
 					<fieldset>
 						  <div class="span12" style="text-align:center">
 						  <div class="clearfix">
-								<label for="name"><span class="color1">User Name<span style="color:red">*</span></span></label>
+								<label for="name" ><span class="color1">User Name<span style="color:red">*</span></span></label>
 								<div class="input">
-									<input tabindex="1" style="width:50%" id="name" name="rollno" type="text" required="" >
+									<input tabindex="1" style="width:50%" id="name" name="uname" type="text" required="" >
 								</div>
 							</div>
 							 <div class="clearfix">
-								<label for="name"><span class="color1">Password<span style="color:red">*</span></span></label>
+								<label for="password"><span class="color1">Password<span style="color:red">*</span></span></label>
 								<div class="input">
-									<input tabindex="1" style="width:50%" id="password" name="rollno" type="password" required="" >
+									<input tabindex="1" style="width:50%" id="password" name="passrd" type="password" required="" >
 								</div>
 							</div>
 							
@@ -76,7 +76,8 @@
 				<div class="span12" style="text-align:center">
 				<div class="actions">
 				<hr/>
-								<button tabindex="3" type="submit" name="submit" class="btn btn-danger btn-large">Log IN</button>
+				<input type="submit" name="login" class="btn btn-danger btn-large" value="Log In">
+								
 							</div>
 				</div>
 							
@@ -122,7 +123,7 @@
 							<div class="clearfix">
 								<label><span>Email Id:<span style="color:red">*</span></span></label>
 								<div class="input">
-									<input tabindex="2" style="width:95%" name="email" Placeholder="Enter Email Id" type="Email"  class="input-xlarge" required="">
+									<input tabindex="2" style="width:95%" id="email" name="email" Placeholder="Enter Email Id" type="Email"  class="input-xlarge" required="">
 								</div>
 							</div>
 							
@@ -130,9 +131,8 @@
 								 <label for="password">Password <span title="Required"
                                        style="color:red;">*</span></label>
 								<div class="input">
-									   <input type="password" style="width:95%" onkeyup='check();' class="form-control" id="password" name="password"
-                                   placeholder="Enter your password" title="Please enter at least 5 or more characters"
-                                   required>
+									   <input type="password" style="width:95%"  class="form-control" id="pass" name="password"
+                                   placeholder="Enter your password" minlength="5" title="plz use more than 5 char" required>
 								</div>
 							</div>
 							<div class="clearfix">
@@ -140,7 +140,7 @@
                                        style="color:red;">*</span><span id="cpass"></span></label>
 								<div class="input">
 									<input name="ConfirmPassword" style="width:95%" onkeyup='check();' type="password" id="ConfirmPassword" class="form-control"
-                                   placeholder="Confirm Password" title=" Password Not Match" required>
+                                   placeholder="Confirm Password" required>
 								</div>
 							</div>
 						  <div class="clearfix">
@@ -202,22 +202,15 @@
 
 
 								</select>								
-							</div>
-							</div>
+									</div>
+									</div>
 							<div class="clearfix">
 								<label><span>District:</span><span style="color:red">*</span></label>
 								<div class="input">
 									<input tabindex="2" style="width:95%"  name="district" type="text"  Placeholder="Enter Your District" class="input-xlarge" required="">
 								</div>
 							</div>
-
-                          
-
-
-
-							
-				
-				</div>
+				               </div>
 				<div class="span12">
 				<div class="actions">
 				<hr/>          

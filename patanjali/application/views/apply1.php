@@ -33,7 +33,7 @@
     
 	<?php $this->load->view('header'); ?>
          <?php $this->load->view('menu'); ?>
-                             <h3 style="color: blue; text-align: center;text-decoration:underline; ">Examination Application Form: CCC Plus(CCCP)</h3> 
+                             <h3 style="color: blue; text-align: center;text-decoration:underline; ">Student Registration Form </h3> 
 
 <form class="form-group" action="<?php echo base_url();?>index.php/welcome/emp_form" method="post" >
 
@@ -220,12 +220,20 @@
   <tr>
     <th class="text-left txt">Select Center Name  Of Accredited Institute </th>
     <td>
+      <?php $this->db->where('status',1);
+      $data=$this->db->get('center');
+            
+       ?>
         <select id="inputState" class="formControl" name="Accreditedcenter" required="">
         <option>Select</option>
-        <option value="ramlala">Ramlala</option>
-        <option value="Unzip">Unzip</option>
-        <option value="Ion"> Ion</option>
-         <option value="Bss">Bss</option>
+        <?php $i=1;
+             foreach($data->result() as $dt):
+        ?>
+        <option value="ramlala"><?php echo $dt->center_name;?></option>
+     
+      <?php $i++;
+      ?>
+       <?php endforeach;?>
       </select>
       </td>
   </tr>

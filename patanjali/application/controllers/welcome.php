@@ -25,6 +25,23 @@ class Welcome extends CI_Controller {
 		
 		
 	}
+	public function center_login()
+	{   $usernm=$this->input->post('uname');
+	     $pass=$this->input->post('passrd');
+	     $data=$this->db->get('center');
+	     $this->db->where('center_name',$usernm);
+	     $this->db->where('password',$pass);
+		
+		if($data)
+		{
+			echo "there are loginin my code..";
+		}
+		else{
+			echo "there are some problem in my code..";
+		}
+			
+	}
+		
 public function reciept()
 	{   
 		$this->load->view('rcpt');
