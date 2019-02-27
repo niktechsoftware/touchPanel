@@ -53,11 +53,11 @@ var check = function() {
 				<!-- start: Contact Form -->
 				<div id="contact-form" style="background:#f3b007;border-radius:5px;padding:16px 20px">
 					
-					<form method="post" action="<?php echo base_url();?>index.php/welcome/center_login" name="resultfrm">
+					<form method="post" action="<?php echo base_url();?>index.php/welcome/center_login/" name="resultfrm">
 					<fieldset>
 						  <div class="span12" style="text-align:center">
 						  <div class="clearfix">
-								<label for="name" ><span class="color1">User Name<span style="color:red">*</span></span></label>
+								<label for="name" ><span class="color1">Center ID  <span style="color:red">*</span></span></label>
 								<div class="input">
 									<input tabindex="1" style="width:50%" id="name" name="uname" type="text" required="" >
 								</div>
@@ -93,17 +93,7 @@ var check = function() {
 </center>
 </div>
 
-<div class="span9" id="form1" style="display:none;">       
-
-
-
-
-
-
-
-
-
-			
+<div class="span9" id="form1" style="display:none;"> 
 			<div style="padding:16px 20px">
 			<div class="title" ><center><h2>  NEW CENTER REGISTRATION </h2></center></div>
              
@@ -114,6 +104,12 @@ var check = function() {
 					 					
 					<fieldset>
 						  <div class="span6">
+						  	<div class="clearfix">
+								<label><span>Center ID:<span style="color:red">*</span></span></label>
+								<div class="input">
+									<input tabindex="1" style="width:95%" name="centerid" Placeholder="Enter Center Name" type="text" required="">
+								</div>
+							</div>
 						  <div class="clearfix">
 								<label><span>Center Name:<span style="color:red">*</span></span></label>
 								<div class="input">
@@ -149,16 +145,11 @@ var check = function() {
 									<input tabindex="2" style="width:95%"  name="address" type="text"  Placeholder="Enter Your Address" class="input-xlarge" required="">
 								</div>
 							</div>
-                                 <div class="clearfix">
-								<label><span>State:</span><span style="color:red">*</span></label>
+                                 
+							<div class="clearfix">
+								<label><span>District:</span><span style="color:red">*</span></label>
 								<div class="input">
-									<input tabindex="2" style="width:95%"  name="state" type="text"  Placeholder="Enter Your State" class="input-xlarge" required="">
-								</div>
-							</div>
-							 <div class="clearfix">
-								<label for="file"><span>UPLOAD FILE:</span><span style="color:red">*</span></label>
-								<div class="input">
-									<input tabindex="2" style="width:95% ;" Placeholder="Upload your File"  name="file" type="file"  class="input-xlarge" required="">
+									<input tabindex="2" style="width:95%"  name="district" type="text"  Placeholder="Enter Your District" class="input-xlarge" required="">
 								</div>
 							</div>
 							
@@ -186,7 +177,7 @@ var check = function() {
 								</div>
 							</div>
 							<div class="clearfix">
-								<label><span>ADDHAR CARD:</span><span style="color:red">*</span></label>
+								<label><span>AADHAR CARD:</span><span style="color:red">*</span></label>
 								<div class="input">
 									<input tabindex="2" style="width:95%" Placeholder="Enter Addhar Card"  name="adhar" type="number"  class="input-xlarge" required="">
 								</div>
@@ -204,12 +195,19 @@ var check = function() {
 								</select>								
 									</div>
 									</div>
-							<div class="clearfix">
-								<label><span>District:</span><span style="color:red">*</span></label>
+									<div class="clearfix">
+								<label><span>State:</span><span style="color:red">*</span></label>
 								<div class="input">
-									<input tabindex="2" style="width:95%"  name="district" type="text"  Placeholder="Enter Your District" class="input-xlarge" required="">
+									<input tabindex="2" style="width:95%"  name="state" type="text"  Placeholder="Enter Your State" class="input-xlarge" required="">
 								</div>
 							</div>
+							 <div class="clearfix">
+								<label for="file"><span>UPLOAD FILE:</span><span style="color:red">*</span></label>
+								<div class="input">
+									<input tabindex="2" style="width:95% ;" Placeholder="Upload your File"  name="file" type="file"  class="input-xlarge" required="">
+								</div>
+							</div>
+							
 				               </div>
 				<div class="span12">
 				<div class="actions">

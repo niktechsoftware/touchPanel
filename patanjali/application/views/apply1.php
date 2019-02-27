@@ -229,7 +229,7 @@
         <?php $i=1;
              foreach($data->result() as $dt):
         ?>
-        <option value="ramlala"><?php echo $dt->center_name;?></option>
+        <option ><?php echo $dt->c_id;?></option>
      
       <?php $i++;
       ?>

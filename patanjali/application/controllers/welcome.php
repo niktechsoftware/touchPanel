@@ -25,21 +25,82 @@ class Welcome extends CI_Controller {
 		
 		
 	}
+	public function update_center()
+	{
+	   
+	    $data=array(
+
+
+	        'center_name'=>    $this->input->post('cname'),
+	        'director_name'=>  $this->input->post('dname'),
+	        'email'=>          $this->input->post('email'),
+	        'password'=>       $this->input->post('pass'),
+	        'pan'=>            $this->input->post('pan'),
+	        'landmark'=>       $this->input->post('land'),
+	        'adhar'=>          $this->input->post('adhar'),
+	        'address'=>        $this->input->post('address'),
+	        'state'=>          $this->input->post('state'),
+	        'district'=>       $this->input->post('district'),
+
+	    );
+
+	    $this->load->model('user');
+	    $this->user->update_customer_table($data);
+	    If($data)
+	    {
+	        redirect("dashbord", 'refresh');
+	    }
+	}
 	public function center_login()
-	{   $usernm=$this->input->post('uname');
-	     $pass=$this->input->post('passrd');
-	     $data=$this->db->get('center');
-	     $this->db->where('center_name',$usernm);
-	     $this->db->where('password',$pass);
+	{   
+	
+        	 
+            $username = $this->input->post('uname');
+           
+            $password = $this->input->post('passrd');
+
+
+            
+            $this->load->model('user');
+
+            $loginData = $this->user->getLoginData($username,$password);
+           
+            if ($loginData)
+            {
+            	$this->session->set_userdata($loginData);
+              redirect('welcome/dashbord','refresh');
+              
+            }
+            else
+            {
+                echo "<script>alert('Error , Your username or password incorrect !');</script>";
+                redirect('welcome/Apply_Center','refresh');
+            }
+            
+
+
+		// $usernm=$this->input->post('uname');
+	 //     $pass=$this->input->post('passrd');
+	 //     $data=$this->db->get('center');
+	 //     $this->db->where('center_name',$usernm);
+	 //     $this->db->where('password',$pass);
+	 //     $data1['usernm1'] = $this->input->post('uname');
 		
-		if($data)
-		{
-			echo "there are loginin my code..";
-		}
-		else{
-			echo "there are some problem in my code..";
-		}
+		// if($data)
+		// {
+		// 	$this->load->view('dashbord',$data1);
+		// }
+		// else{
+		// 	echo "there are some problem in my code..";
+		// }
 			
+	}
+	public function dashbord()
+	{   
+		$this->load->view('dashbord');
+		
+		
+		
 	}
 		
 public function reciept()
@@ -51,15 +112,16 @@ public function reciept()
 	public function center_register()
 	{   
 		$data = array(
+			'c_id' =>           $this->input->post('centerid') ,
 			'center_name' =>    $this->input->post('name') ,
 			'email' =>          $this->input->post('email')  ,
 			'password' =>       $this->input->post('password') ,
-			'c_password' =>     $this->input->post('ConfirmPassword') ,
+			
 			'address' =>        $this->input->post('address') ,
 			'state' =>          $this->input->post('state') ,
 			'director_name' =>  $this->input->post('d_name') ,
 			'pan' =>            $this->input->post('pan') ,
-			'landmark'  =>       $this->input->post('landmark') ,
+			'landmark'  =>       $this->input->post('Landmark') ,
 			'adhar'  =>          $this->input->post('adhar') ,
 			'land_agree' =>      $this->input->post('land_agr') ,
 			'district' =>        $this->input->post('district'),
