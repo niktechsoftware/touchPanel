@@ -35,7 +35,7 @@
          <?php $this->load->view('menu'); ?>
                              <h3 style="color: blue; text-align: center;text-decoration:underline; ">Student Registration Form </h3> 
 
-<form class="form-group" action="<?php echo base_url();?>index.php/welcome/emp_form" method="post" >
+<form class="form-group" action="<?php echo base_url();?>index.php/welcome/emp_form" enctype="multipart/form-data" method="post" >
 
 <table class=" table table-bordered ">
   <tr class="head_tr">
@@ -275,13 +275,13 @@
   <tr>
     <th class="text-left txt">Upload Photo</th>
     <td>
-       Select images: <input type="file" name="img" multiple>
+       Select images: <input type="file" name="img" >
       </td>
   </tr>
   <tr>
     <th class="text-left txt">Upload Left Thumb Impression</th>
     <td>
-       Choose File: <input type="file" name="thumbimg" multiple>
+       Choose File: <input type="file" name="thumbimg" >
       </td>
   </tr>
  

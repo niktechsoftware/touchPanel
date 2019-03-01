@@ -17,7 +17,22 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
-
+/*function __construct()
+	{
+		parent::__construct();
+		$this->isLogin();
+	}
+	
+	function isLogin(){
+		$is_login = $this->session->userdata('is_login');
+		$is_lock = $this->session->userdata('is_lock');
+		if(!$is_login){
+			//echo $is_login;
+			redirect(base_url()."index.php/welcome/index");
+		}*/
+		
+		
+	//}
 	public function index()
 	{   
 		$this->load->view('welcome_message');
@@ -51,6 +66,16 @@ class Welcome extends CI_Controller {
 	        redirect("dashbord", 'refresh');
 	    }
 	}
+
+		public function logout()
+	 {   //$this->session->set_flashdata('isAuth','false');
+		 $this->session->unset_userdata();
+		$this->session->sess_destroy();
+		 redirect('welcome/Apply_Center','refresh');
+		
+		
+		
+	}
 	public function center_login()
 	{   
 	
@@ -68,12 +93,14 @@ class Welcome extends CI_Controller {
             if ($loginData)
             {
             	$this->session->set_userdata($loginData);
-              redirect('welcome/dashbord','refresh');
+          //   	$this->session->unset_userdata();
+		        // $this->session->sess_destroy();
+              redirect('logoutcont/dashbord','refresh');
               
             }
             else
             {
-                echo "<script>alert('Error , Your username or password incorrect !');</script>";
+                echo "centerlogin";
                 redirect('welcome/Apply_Center','refresh');
             }
             
@@ -95,13 +122,9 @@ class Welcome extends CI_Controller {
 		// }
 			
 	}
-	public function dashbord()
-	{   
-		$this->load->view('dashbord');
-		
-		
-		
-	}
+    
+
+	
 		
 public function reciept()
 	{   
@@ -111,6 +134,7 @@ public function reciept()
 
 	public function center_register()
 	{   
+		$photo_name3 = time().trim($_FILES['file']['name']);
 		$data = array(
 			'c_id' =>           $this->input->post('centerid') ,
 			'center_name' =>    $this->input->post('name') ,
@@ -125,52 +149,158 @@ public function reciept()
 			'adhar'  =>          $this->input->post('adhar') ,
 			'land_agree' =>      $this->input->post('land_agr') ,
 			'district' =>        $this->input->post('district'),
-			'upload_file' =>     $this->input->post('file') , 
+			'upload_file' =>     $photo_name3 , 
 
 		);
+
+		 $this->load->library('upload');
+      $image_path = realpath(APPPATH . '../assets/centerimg');
+
+        $config['upload_path'] = $image_path;
+        $config['allowed_types'] = 'gif|jpg|jpeg|png';
+        $config['max_size'] = '512';
+        $config['file_name'] = $photo_name3;
+          // $config['max_width']       = '100';
+          // $config['max_height']      = '100';
+        if (!empty($_FILES['file']['name'])) {
+           $this->upload->initialize($config);
+            $this->upload->do_upload('file');
+          
+        }
+        else{
+           echo "Somthing going wrong. Please Contact Site administrator";
+        }
 			
       $this->load->model('user');
      $bc= $this->user->center($data);
       if($bc)
       {
-      	echo "center inserted...";
+      	 echo "hello";
+      }
+   else{
+   	echo "not inserted..";
+   }
+	}
+
+	public function center_update()
+	{  
+		$photo_name3 = time().trim($_FILES['filed']['name']);
+		$data = array(
+			'c_id' =>           $this->input->post('centerid') ,
+			'center_name' =>    $this->input->post('name') ,
+			'email' =>          $this->input->post('email')  ,
+			'password' =>       $this->input->post('password') ,
+			
+			'address' =>        $this->input->post('address') ,
+			'state' =>          $this->input->post('state') ,
+			'director_name' =>  $this->input->post('d_name') ,
+			'pan' =>            $this->input->post('pan') ,
+			'landmark'  =>       $this->input->post('Landmark') ,
+			'adhar'  =>          $this->input->post('adhar') ,
+			'land_agree' =>      $this->input->post('land_agr') ,
+			'district' =>        $this->input->post('district'),
+			'upload_file' =>     $photo_name3 , 
+
+		);
+
+		 $this->load->library('upload');
+      $image_path = realpath(APPPATH . '../assets/centerimg');
+
+        $config['upload_path'] = $image_path;
+        $config['allowed_types'] = 'gif|jpg|jpeg|png';
+        $config['max_size'] = '512';
+        $config['file_name'] = $photo_name3;
+          // $config['max_width']       = '100';
+          // $config['max_height']      = '100';
+        if (!empty($_FILES['filed']['name'])) {
+           $this->upload->initialize($config);
+            $this->upload->do_upload('filed');
+          
+        }
+        else{
+           echo "Somthing going wrong. Please Contact Site administrator";
+        }
+			
+      $this->load->model('user');
+     $bc= $this->user->center_update($data);
+      if($bc)
+      {
+      	echo "<script> alert('Successfully Updated'); </script>";
+      	redirect('logoutcont/dashbord','refresh');
       }
    else{
    	echo "not inserted..";
    }
 	}
 	
+	
 	public function emp_form()
 	{   
+		$photo_name1 = time().trim($_FILES['img']['name']);
+        $photo_name2 = time().trim($_FILES['thumbimg']['name']);
+
 		$save = array(
 			'name' =>    $this->input->post('name')  , 
 
 
-            'father_name' =>    $this->input->post('fathername')  , 
-            'mother_name' =>    $this->input->post('mothername')  , 
-             'gender' =>    $this->input->post('optradio1')  , 
-             'date_of_birth' =>    $this->input->post('dateofbirth')  , 
-             'category' =>    $this->input->post('Category')  , 
-              'occupation' =>    $this->input->post('Occupation')  , 
-               'desability' =>    $this->input->post('optradio2')  , 
-              'phone_no' =>    $this->input->post('PhoneNo')  , 
-             'mobile' =>    $this->input->post('mobile')  , 
-              'address_1' =>    $this->input->post('Address1')  , 
-              'address_2' =>    $this->input->post('Address2')  , 
-               'city_name' =>    $this->input->post('CityName')  , 
-             'state_name' =>    $this->input->post('StateName')  , 
-              'district_name' =>    $this->input->post('DistrictName')  , 
-            'h_qualification' =>    $this->input->post('hQualification')  , 
-            'year_of_passing' =>    $this->input->post('PassingYear')  , 
-            'accredited_state' =>    $this->input->post('AccreditedState')  , 
-           'accredited_center' =>    $this->input->post('Accreditedcenter')  , 
-          'exam_name' =>    $this->input->post('AppliedExamination')  , 
-           'exam_location' =>    $this->input->post('ExaminationLocation')  , 
-           'adhar_no' =>    $this->input->post('adharno')  , 
-           'image' =>    $this->input->post('img') , 
-         'thumb' =>    $this->input->post('thumbimg') , 
-           
+        'father_name' =>    $this->input->post('fathername')  , 
+        'mother_name' =>    $this->input->post('mothername')  , 
+         'gender' =>    $this->input->post('optradio1')  , 
+         'date_of_birth' =>    $this->input->post('dateofbirth')  , 
+         'category' =>    $this->input->post('Category')  , 
+          'occupation' =>    $this->input->post('Occupation')  , 
+           'desability' =>    $this->input->post('optradio2')  , 
+          'phone_no' =>    $this->input->post('PhoneNo')  , 
+         'mobile' =>    $this->input->post('mobile')  , 
+          'address_1' =>    $this->input->post('Address1')  , 
+          'address_2' =>    $this->input->post('Address2')  , 
+           'city_name' =>    $this->input->post('CityName')  , 
+         'state_name' =>    $this->input->post('StateName')  , 
+          'district_name' =>    $this->input->post('DistrictName')  , 
+        'h_qualification' =>    $this->input->post('hQualification')  , 
+        'year_of_passing' =>    $this->input->post('PassingYear')  , 
+        'accredited_state' =>    $this->input->post('AccreditedState')  , 
+       'accredited_center' =>    $this->input->post('Accreditedcenter')  , 
+      'exam_name' =>    $this->input->post('AppliedExamination')  , 
+       'exam_location' =>    $this->input->post('ExaminationLocation')  , 
+       'adhar_no' =>    $this->input->post('adharno')  , 
+       'image' =>   $photo_name1  , 
+     'thumb' =>    $photo_name2 , 
+       
 	       );
+		 $this->load->library('upload');
+      $image_path = realpath(APPPATH . '../assets/studimg/img');
+
+        $config['upload_path'] = $image_path;
+        $config['allowed_types'] = 'gif|jpg|jpeg|png';
+        $config['max_size'] = '512';
+        $config['file_name'] = $photo_name1;
+          // $config['max_width']       = '100';
+          // $config['max_height']      = '100';
+        if (!empty($_FILES['img']['name'])) {
+           $this->upload->initialize($config);
+            $this->upload->do_upload('img');
+          
+        }
+        else{
+           echo "Somthing going wrong. Please Contact Site administrator";
+        }
+        $this->load->library('upload');
+        $image_path = realpath(APPPATH . '../assets/studimg/thumb');
+        $config['upload_path'] = $image_path;
+        $config['allowed_types'] = 'gif|jpg|jpeg|png';
+        $config['max_size'] = '512';
+         // $config['max_width']       = '100';
+         //  $config['max_height']      = '100';
+        $config['file_name'] = $photo_name2;
+        if (!empty($_FILES['thumbimg']['name'])) {
+           $this->upload->initialize($config);
+            $this->upload->do_upload('thumbimg');
+          
+        }
+        else{
+           echo "Somthing going wrong. Please Contact Site administrator";
+        }
 
 		 $this->load->model('user');
 		 $id=$this->user->savedata($save);
@@ -440,6 +570,7 @@ $this->load->view('popup');
 	
 	
 }
+
 
 /* End of file welcome.php */
 /* Location: ./application/controllers/welcome.php */

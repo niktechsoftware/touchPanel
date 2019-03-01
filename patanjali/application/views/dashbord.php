@@ -1,4 +1,3 @@
-
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,7 +42,8 @@ body {font-family: Arial;}
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: #CC0000;
+  color:white;
 }
 
 /* Style the tab content */
@@ -58,30 +58,41 @@ body {font-family: Arial;}
 <body>
   <div id="wrapper" style="border-radius:10px;border:2px solid blue">
 <?php $this->load->view('header');?>
-<center>
+<div class="row">
+  <div class="col-md-12">
+   <center>
 <h2>Center Details</h2>
 
 </center>
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'rstd')">Register Student</button>
-  <button class="tablinks" onclick="openCity(event, 'editprofile')"> Center Profile</button>
-  
+  </div>
 </div>
+<div class="row">
+  <div class="col-md-12">
+    <a href="<?php echo base_url();?>index.php/welcome/logout" class="btn btn-danger btn-right" style="float: right; padding-bottom: 15px'">Log Out</a>
 
-<div id="rstd" class="tabcontent">
-  <h3>Register Student </h3>
-
- 
- <table class="table table-bordered">
-
- 
-  <thead>
-                        <tr>
-                            <td><strong> S.No.</strong></td>&nbsp;&nbsp;&nbsp;&nbsp;
-                            <td><strong>Student ID</strong></td>&nbsp;&nbsp;&nbsp;&nbsp;
-                            <td><strong>Student Name</strong></td>
-                          </tr>
-                        </thead>
+  </div>
+</div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="tab">
+          <button class="tablinks" onclick="openCity(event, 'rstd')">Register Student</button>
+          <button class="tablinks" onclick="openCity(event, 'editprofile')"> Center Profile</button>
+          
+        </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+        <div id="rstd" class="tabcontent">
+          <h3> <center>Register Student </center></h3>
+            <table class="table table-bordered">
+               <thead>
+                  <tr>
+                    <td><strong> S.No.</strong></td>&nbsp;&nbsp;&nbsp;&nbsp;
+                     <td><strong>Student ID</strong></td>&nbsp;&nbsp;&nbsp;&nbsp;
+                     <td><strong>Student Name</strong></td>
+                  </tr>
+                </thead>
 
                         <?php
                          $c_id=$this->session->userdata('id');
@@ -93,28 +104,23 @@ body {font-family: Arial;}
                         $cd = "SELECT * FROM registration_table WHERE accredited_center = ?";
                         $res= $this->db->query($cd, array($c_id))->result();
                         // $cd = $this->db->get('registration_table')->result();
-
-                       
-
                         ?>
                         <?php $i = 1;?> 
                           <?php foreach($res as $cdb): ?>
-                        <tbody>
-                          
-                          <tr>
-                            <td><?php echo $i; ?></td>&nbsp;&nbsp;&nbsp;&nbsp;
-                            <td><?php echo $cdb->stud_id; ?></td> &nbsp;&nbsp;&nbsp;&nbsp;
-                            <td><?php echo $cdb->name; ?></td>&nbsp;&nbsp;&nbsp;&nbsp;
-                          </tr>
-                         <?php $i++ ; ?>
-                        <?php endforeach;?>
-                        </tbody>
+                 <tbody> 
+                    <tr>
+                       <td><?php echo $i; ?></td>&nbsp;&nbsp;&nbsp;&nbsp;
+                       <td><?php echo $cdb->stud_id; ?></td> &nbsp;&nbsp;&nbsp;&nbsp;
+                       <td><?php echo $cdb->name; ?></td>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </tr>
+                    <?php $i++ ; ?>
+                    <?php endforeach;?>
+                  </tbody>
    
- </table>
-</div>
-
-<div id="editprofile" class="tabcontent">
-  <h3>Edit Center Profile</h3>
+            </table>
+          </div>
+          <div id="editprofile" class="tabcontent">
+  <h3><center>Edit Center Profile</center></h3>
 <?php 
 $cde = "SELECT * FROM center WHERE c_id = ?";
  $cdb= $this->db->query($cde, array($c_id))->result();
@@ -126,52 +132,56 @@ $cde = "SELECT * FROM center WHERE c_id = ?";
   <th colspan="2"> <span style="font-size: 15px;">Center Detail</span> </th>
     </tr>
     <tr>
-    <th class="text-left txt"> Center ID</th>
+    <td > Center ID</td>
     <td><?php echo $abc->c_id;?></td>
   </tr>
   <tr>
-    <th class="text-left txt"> Center Name</th>
+   <td > Center Name</td>
     <td><?php echo $abc->center_name;?></td>
   </tr>
   
    <tr>
-    <th class="text-left txt">Email</th>
+    <td >Email</td>
    <td><?php echo $abc->email;?></td>
   </tr>
    <tr>
-    <th class="text-left txt">Password</th>
+    <td class="text-left txt">Password</td>
    <td><?php echo $abc->password;?></td>
   </tr>
    <tr>
-    <th class="text-left txt">Pan No.</th>
+    <td class="text-left txt">Pan No.</td>
    <td><?php echo $abc->pan;?></td>
   </tr>
    <tr>
-    <th class="text-left txt">Landmark</th>
+    <td class="text-left txt">Landmark</td>
    <td><?php echo $abc->landmark;?></td>
   </tr>
   <tr>
-    <th class="text-left txt">Address Proof</th>
+    <td class="text-left txt">Address Proof</td>
    <td><?php echo $abc->land_agree;?></td>
   </tr>
    <tr>
-    <th class="text-left txt">Adhar Card</th>
+    <td class="text-left txt">Adhar Card</td>
    <td><?php echo $abc->adhar;?></td>
   </tr>
    <tr>
-    <th class="text-left txt">Address</th>
+    <td class="text-left txt">Address</td>
     <td><?php echo $abc->address;?></td>
   </tr>
    <tr>
-    <th class="text-left txt">State</th>
+    <td class="text-left txt">State</td>
     <td><?php echo $abc->state;?></td>
   </tr>
   
     
    <tr>
-    <th class="text-left txt">District</th>
+    <td class="text-left txt">District</td>
    <td><?php echo $abc->district;?></td>
   </tr>
+  <tr>
+    <td class="text-left txt">Photo</td>
+   <td><img src="<?php echo base_url();?>assets/centerimg/<?php echo $abc->upload_file;?>" style="max-height: 100px; max-width: 100px;"></td>
+  </tr> 
   
 </table>
 <?php endforeach;?>
@@ -187,7 +197,7 @@ $cde = "SELECT * FROM center WHERE c_id = ?";
         <!-- start: Contact Form -->
         <div id="contact-form" style="background:#c68dc0;border-radius:5px;padding:16px 20px">
           
-          <form method="post" action="<?php echo base_url();?>index.php/welcome/center_register" name="register_form"  >
+          <form method="post" action="<?php echo base_url();?>index.php/welcome/center_update" enctype="multipart/form-data" name="register_form"  >
                     
           <fieldset>
               <div class="span6">
@@ -273,7 +283,7 @@ $cde = "SELECT * FROM center WHERE c_id = ?";
             <label for="landagreement"><span>LAND AGREEMENT:<span style="color:red">*</span></span></label>
                 
                   <div class="input" >
-                <select name='land_agr' class='form-control' name="l_agree" style="width:100%;height:40px;" required="" >
+                <select name='land_agr' class='form-control' name="l_agree" style="width:95%;height:30px;" required="" >
                     <option value="">-- Select -- </option>
                     <option value='billnumber' style='color:black' >Electricity Bill Number</option>
                                        <option value='Addressprof' style='color:black'>Address Proof</option>
@@ -291,7 +301,7 @@ $cde = "SELECT * FROM center WHERE c_id = ?";
                <div class="clearfix">
                 <label for="file"><span>UPLOAD FILE:</span><span style="color:red">*</span></label>
                 <div class="input">
-                  <input tabindex="2" style="width:95% ;" Placeholder="Upload your File"  name="file" type="file"  class="input-xlarge" required="">
+                  <input tabindex="2" style="width:95% ;" Placeholder="Upload your File"  name="filed" type="file"  class="input-xlarge" required="">
                 </div>
               </div>
               
@@ -335,8 +345,10 @@ function openCity(evt, cityName) {
 </script>
 
    </div>
-   <hr>
+    </div>
+  </div>  <hr>
 <?php $this->load->view('footer');?>
 </div>
+  
 </body>
-</html> 
+</html>

@@ -100,7 +100,7 @@ var check = function() {
 				<!-- start: Contact Form -->
 				<div id="contact-form" style="background:#c68dc0;border-radius:5px;padding:16px 20px">
 					
-					<form method="post" action="<?php echo base_url();?>index.php/welcome/center_register" name="register_form"  >
+					<form method="post" action="<?php echo base_url();?>index.php/welcome/center_register" enctype="multipart/form-data" name="register_form"  >
 					 					
 					<fieldset>
 						  <div class="span6">

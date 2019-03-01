@@ -15,6 +15,16 @@ public function center($data)
 		return $ab;
 			
 }
+public function center_update($data)
+	{
+	 $abc=$this->session->userdata('id');
+	 $this->db->where('c_id',$abc);
+		$ab=$this->db->update('center',$data);
+		
+
+		return $ab;
+			
+}
     public function update_customer_table($data)
     {
       
@@ -44,6 +54,7 @@ public function center($data)
 		        "center_name" => $res->center_name,
 		         "email" => $res->email,
 		        "status" => $res->status,
+		        "is_login"=>true
 		        
 		    );
 		    return $loginData;
