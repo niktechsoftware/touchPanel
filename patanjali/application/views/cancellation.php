@@ -23,7 +23,7 @@
 			<div style="padding:20px">
 			<!-- start: About Us -->
 					<div id="about">
-						<div class="title"><h3>The Admission may be cancelled by RUCSVS on any of the following grounds:</h3></div>
+						<div class="title"><h3><strong> The Admission may be cancelled by RUCSVS on any of the following grounds:</strong></h3></div>
 						<p style="text-align:justify"><font size="+1" style="font-family: Georgia, "Times New Roman", Times, serif"> 
 							1. If the supporting documents/copies of educational certificates are not completely provided.<br><br>
 2. If the fee paid is less than the applicable fee.<br><br>

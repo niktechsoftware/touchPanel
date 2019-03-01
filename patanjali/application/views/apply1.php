@@ -157,12 +157,44 @@
     <th class="text-left txt">State Name</th>
     <td>
        <select id="inputState" class="formControl" name="StateName" required="">
-        <option>Select</option>
-        <option value="UP">Up</option>
-        <option value="Manipur">Manipur</option>
-        <option value="Mp">Mp</option>
-         <option value="Delhi">Delhi</option>
-      </select>
+        <option value="">-Select State-</option>
+                                <option value="Delhi">Delhi</option>
+                <option value="Andaman And Nicobar">Andaman And Nicobar</option>
+                                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                <option value="Assam">Assam</option>
+                                <option value="Bihar">Bihar</option>
+                                <option value="Chandigarh">Chandigarh</option>
+                                <option value="Chattisgarh">Chattisgarh</option>
+                                <option value="Dadra Nagar Haveli">Dadra Nagar Haveli</option>
+                                <option value="Daman And Diu">Daman And Diu</option>
+                                <option value="Goa">Goa</option>
+                                <option value="Gujarat">Gujarat</option>
+                                <option value="Haryana">Haryana</option>
+                                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                <option value="Jammu And Kashmir">Jammu And Kashmir</option>
+                                <option value="Jharkhand">Jharkhand</option>
+                                <option value="Karnataka">Karnataka</option>
+                                <option value="Kerala">Kerala</option>
+                                <option value="Lakshadweep">Lakshadweep</option>
+                                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                <option value="Maharashtra">Maharashtra</option>
+                                <option value="Manipur">Manipur</option>
+                                <option value="Meghalaya">Meghalaya</option>
+                                <option value="Mizoram">Mizoram</option>
+                                <option value="Nagaland">Nagaland</option>
+                                <option value="Orissa">Orissa</option>
+                                <option value="Pondicherry">Pondicherry</option>
+                                <option value="Punjab">Punjab</option>
+                                <option value="Rajasthan">Rajasthan</option>
+                                <option value="Sikkim">Sikkim</option>
+                                <option value="Tamil Nadu">Tamil Nadu</option>
+                                <option value="Tripura">Tripura</option>
+                                <option value="UP">UP</option>
+                                <option value="UP(Noida, Gaziabad)">UP(Noida, Gaziabad)</option>
+                                <option value="Uttarakhand">Uttarakhand</option>
+                                <option value="West Bengal">West Bengal</option>
+                                <option value="International">International</option>      </select>
       </td>
   </tr>
   <tr>

@@ -176,7 +176,7 @@ public function reciept()
      $bc= $this->user->center($data);
       if($bc)
       {
-      	 echo "hello";
+      	 echo '<script> alert("Your Registration Successfully Submitted");</script>';
       }
    else{
    	echo "not inserted..";
@@ -316,6 +316,7 @@ public function reciept()
           $up=$this->db->update('registration_table',$update);
           if($up)
           {
+          	echo '<script>alert(" Your Registration Successfully Submitted");</script>';
 	      $this->db->where('id',$id);
          $data['adc']=$this->db->get('registration_table')->result();
          $this->load->view('rcpt',$data);

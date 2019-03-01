@@ -31,11 +31,11 @@
 					<form method="post" action="result.php" name="register_form" onSubmit="return talentvalidate()">
 					
 					<fieldset>
-						  <div class="span6">
+						  <div class="span12" style="text-align:center">
 						  <div class="clearfix">
-								<label for="name"><span style="color:#FFFFFF">Registration Number:<span style="color:red">*</span></span></label>
+								<label for="name"><span style="color:#FFFFFF;font-size: 22px;">Registration Number:<span style="color:red">*</span></span></label>
 								<div class="input">
-									<input tabindex="1" style="width:95%" name="rollnumber" Placeholder="Enter Registration Number" type="text" >
+									<input tabindex="1" style="width:50x%" name="rollnumber" Placeholder="Enter Registration Number" type="text" >
 								</div>
 							</div>
 							<div class="span12">

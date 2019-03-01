@@ -24,7 +24,7 @@
 			<div style="padding:20px">
 			<!-- start: About Us -->
 					<div id="about">
-						<div class="title"><h3>Terms & Conditions for Student</h3></div>
+						<div class="title"><h3><center><strong>Terms & Conditions for Student </strong></center></h3></div>
 						<p style="text-align:justify"><font size="+1" style="font-family: Georgia, "Times New Roman", Times, serif">
 							1. If the Student's Roll No is not verify on RUCSVS website then RUCSVS is not responsive for that student.<br><br>
 2. Only Those Institutes are authorized to taking student Admission Guidance & Counseling whose Name are mentioned in our Study Center List with Code.<br><br>

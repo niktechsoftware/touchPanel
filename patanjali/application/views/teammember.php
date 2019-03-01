@@ -53,7 +53,7 @@
 					
 			</div>
 			<div class="span3" style="text-align:center">
-			<div style="background:#e4e7ed;padding:30px;margin:10px">
+			<div style="background:#e4e7ed;padding:28px;margin:10px">
 					<img style="border:4px dotted #00A859;border-radius:50%" src="<?php echo base_url();?>assets/img/logoh.jpg">
 					<div>
 										<h4 class="text-primary " style="color:red">Mr. Manglesh Kumar </h4>
@@ -183,7 +183,7 @@
 					<img style="border:4px dotted #00A859;border-radius:50%" src="<?php echo base_url();?>assets/img/logoh.jpg">
 					<div>
 										<h4 class="text-primary " style="color:red">Mr. Durga </h4>
-										<h5 style="color:blue;">Accountancy & Legal Advisor</h5>
+										<h5 style="color:blue;"> Legal Advisor</h5>
 									<!-- 	<h5 style="margin:5px;color:green;">Chartered Accountant</h5> -->
 										
 					</div>

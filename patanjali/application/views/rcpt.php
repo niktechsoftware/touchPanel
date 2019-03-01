@@ -16,7 +16,7 @@
 
 </head>
 <body>
-
+ <div class="container">
   <div id="wrapper" style="border-radius:10px;border:2px solid blue">
     
 <?php $this->load->view('header'); ?>
@@ -146,13 +146,15 @@
     <td class="text-left txt">Left Thumb Impression</td>
    <td><img src="<?php echo base_url();?>assets/studimg/thumb/<?php echo $abc->thumb;?>" style="max-height: 100px; max-width: 100px;"></td>
   </tr>
- <tr><td colspan="2"><button onclick="myFunction()">Print this page</button></td></tr>
+ <tr><td colspan="2"><center><button onclick="myFunction()">Print this page</button></center> </td></tr>
 
 </table>
 <?php }?>
 
-<?php $this->load->view('footer'); ?>
-         
-</body>
-</html>
+   
+   </div>
+ </div>
+   </body>
+   </html>      
+
 

@@ -28,7 +28,7 @@
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>About Us</b> <b class="caret" style="color:white"></b></a>
                                     <ul class="dropdown-menu">
                                         <li  ><a href="<?php echo base_url();?>index.php/welcome/aboutUs" >About Us</a></li>
-                                        <li><a href="<?php echo base_url();?>index.php/welcome/vision" >Vision/ Mission</a></li>
+                                        <li><a href="<?php echo base_url();?>index.php/welcome/vision" >Vission/ Mission</a></li>
                                         <li><a href="<?php echo base_url();?>index.php/welcome/director" >Director Message</a></li>
                                         <li><a href="<?php echo base_url();?>index.php/welcome/secretory" >Secretary Message</a></li>
                                         <li><a href="<?php echo base_url();?>index.php/welcome/rucsvs" >Why RUCSVS</a></li>

@@ -41,9 +41,13 @@
 
 हमारे ट्रस्ट का मूल उद्देश्य है, किसी भी कारण से शिक्षा से वंचित बच्चों व नारीशक्ति को शिक्षा व रोजगारपरक शिक्षा सहज व सरल रूप से सुलभ करवाना। भारतीय संस्कृति व संस्कारों को बढ़ावा देने में अपना योगदान देना। लक्ष्य की राह कठिन हो सकती है, पर असंभव नहीं। छोटे-छोटे  प्रयास ही परिवर्तन की दिशा तय करते हैं।
 
-SECRETARY & HEAD<br>
-Ms. Sonika Tiwari
+
 </p>
+<center>
+<p style="font-size: 20px; text-decoration-line: underline;"><strong>SECRETARY & HEAD</strong></p>
+  <p> Ms. Sonika Tiwari</p>
+  </center>
+
 					</div>	
 					<!-- end: About Us -->
 

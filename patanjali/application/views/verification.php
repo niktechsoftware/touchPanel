@@ -33,7 +33,7 @@
 					<fieldset>
 						  <div class="span12" style="text-align:center">
 						  <div class="clearfix">
-								<label for="name"><span class="color1">Enrollment No:<span style="color:red">*</span></span></label>
+								<label for="name"><span class="color1" style="font-size: 22px;" >Enrollment No:<span style="color:red">*</span></span></label>
 								<div class="input">
 									<input tabindex="1" style="width:50%" id="name" name="rollno" type="text" placeholder="Enter Student Enrollment Number" >
 								</div>

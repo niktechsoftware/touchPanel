@@ -1163,7 +1163,7 @@
 			
 			
 		<!--end: Container-->
-         this is course page.........
+         
           <?php $this->load->view('footer'); ?>
       </div>
 </body>

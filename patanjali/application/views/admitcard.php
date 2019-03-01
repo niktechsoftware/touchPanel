@@ -29,15 +29,16 @@
 					
 					<form method="post" action="admitcard.php" name="register_form" onSubmit="return talentvalidate()">
 					
-					<fieldset>
-						  <div class="span6">
+					<fieldset >
+						
+						  <div class="span12" style="text-align:center" >
 						  <div class="clearfix">
-								<label for="name"><span style="color:#FFFFFF">Registration Number:<span style="color:red">*</span></span></label>
+								<label for="name"><span style="color:#FFFFFF ;font-size: 22px;">Registration Number:<span style="color:red">*</span></span></label>
 								<div class="input">
-									<input tabindex="1" style="width:95%" name="rollnumber" Placeholder="Enter Registration Number" type="text" >
+									<input tabindex="1" style="width:50%;" name="rollnumber" Placeholder="Enter Registration Number" type="text" >
 								</div>
 							</div>
-							<div class="span12">
+							<div class="span12" >
 				           <div class="actions">
 				
 								<input type="submit" name="submit" class="btn btn-danger btn-large" value="Submit">
