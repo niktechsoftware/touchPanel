@@ -190,7 +190,7 @@ $cde = "SELECT * FROM center WHERE c_id = ?";
 </center>
 
 
-<div class="span9" id="form1" style="display:none;"> 
+  <div class="span9" id="form1" style="display:none;"> 
       <div style="padding:16px 20px">
       <div class="title" ><center><h2>  UPDATE CENTER DETAIL</h2></center></div>
              
@@ -201,12 +201,12 @@ $cde = "SELECT * FROM center WHERE c_id = ?";
                     
           <fieldset>
               <div class="span6">
-                <div class="clearfix">
+                <!-- <div class="clearfix">
                 <label><span>Center ID:<span style="color:red">*</span></span></label>
                 <div class="input">
                   <input tabindex="1" style="width:95%" name="centerid" Placeholder="Enter Center Name" type="text" required="">
                 </div>
-              </div>
+              </div> -->
               <div class="clearfix">
                 <label><span>Center Name:<span style="color:red">*</span></span></label>
                 <div class="input">
@@ -261,24 +261,24 @@ $cde = "SELECT * FROM center WHERE c_id = ?";
                 </div>
 
                       </div>
-              <div class="clearfix">
+              <!-- <div class="clearfix">
                 <label for="name"><span>PAN Nummber:<span style="color:red">*</span></span></label>
                 <div class="input">
                   <input tabindex="2" style="width:95%"  name="pan" type="text"  Placeholder="Enter PAN Number" class="input-xlarge" required="">
                             </div>
-                                          </div>  
+                                          </div>   -->
               <div class="clearfix">
                 <label><span>LANDMARK:</span><span style="color:red">*</span></label>
                 <div class="input">
                   <input tabindex="2" style="width:95%" Placeholder="Enter Landmark"  name="Landmark" type="text"  class="input-xlarge" required="">
                 </div>
               </div>
-              <div class="clearfix">
+              <!-- <div class="clearfix">
                 <label><span>AADHAR CARD:</span><span style="color:red">*</span></label>
                 <div class="input">
                   <input tabindex="2" style="width:95%" Placeholder="Enter Addhar Card"  name="adhar" type="number"  class="input-xlarge" required="">
                 </div>
-              </div>
+              </div> -->
                        <div class="clearfix">
             <label for="landagreement"><span>LAND AGREEMENT:<span style="color:red">*</span></span></label>
                 
@@ -310,7 +310,7 @@ $cde = "SELECT * FROM center WHERE c_id = ?";
         <div class="actions">
         <hr/>          
         <center>
-          <input type="submit" name="submit" class="btn btn-danger btn-large">
+          <input type="submit" name="submit" class="btn btn-danger btn-large" value="Update" >
                 
                 </center>
               </div>
@@ -324,6 +324,7 @@ $cde = "SELECT * FROM center WHERE c_id = ?";
       
       </div>
       </div>
+   
 
 <script>
 function openCity(evt, cityName) {

@@ -95,6 +95,7 @@ class Welcome extends CI_Controller {
             	$this->session->set_userdata($loginData);
           //   	$this->session->unset_userdata();
 		        // $this->session->sess_destroy();
+		        echo '<script> alert("Center Login Successfully");</script>';
               redirect('logoutcont/dashbord','refresh');
               
             }
@@ -186,7 +187,7 @@ public function reciept()
 	{  
 		$photo_name3 = time().trim($_FILES['filed']['name']);
 		$data = array(
-			'c_id' =>           $this->input->post('centerid') ,
+			// 'c_id' =>           $this->input->post('centerid') ,
 			'center_name' =>    $this->input->post('name') ,
 			'email' =>          $this->input->post('email')  ,
 			'password' =>       $this->input->post('password') ,
@@ -194,9 +195,9 @@ public function reciept()
 			'address' =>        $this->input->post('address') ,
 			'state' =>          $this->input->post('state') ,
 			'director_name' =>  $this->input->post('d_name') ,
-			'pan' =>            $this->input->post('pan') ,
+			// 'pan' =>            $this->input->post('pan') ,
 			'landmark'  =>       $this->input->post('Landmark') ,
-			'adhar'  =>          $this->input->post('adhar') ,
+			// 'adhar'  =>          $this->input->post('adhar') ,
 			'land_agree' =>      $this->input->post('land_agr') ,
 			'district' =>        $this->input->post('district'),
 			'upload_file' =>     $photo_name3 , 
