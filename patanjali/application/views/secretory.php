@@ -43,10 +43,10 @@
 
 
 </p>
-<center>
+<div style="float: right;">
 <p style="font-size: 20px; text-decoration-line: underline;"><strong>SECRETARY & HEAD</strong></p>
   <p> Ms. Sonika Tiwari</p>
-  </center>
+  </div>
 
 					</div>	
 					<!-- end: About Us -->

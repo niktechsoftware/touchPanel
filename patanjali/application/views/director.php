@@ -39,11 +39,11 @@
 अगर कोई भी हमारे इस सफर में किसी भी रूप में साथ चलना चाहे तो हार्दिक स्वागत है।
 </p> 
 <br>
-<center>
+<div style="float: right;">
 <p style="font-size: 20px; text-decoration-line: underline;"><strong> Director</strong></p>
   <p> K. Bhardwaj</p>
-  </center>
-
+  
+</div>
 					</div>	
 					<!-- end: About Us -->
 
