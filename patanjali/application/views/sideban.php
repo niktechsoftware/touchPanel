@@ -22,14 +22,14 @@
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
 					<li style="background: url(<?php echo base_url();?>assets/img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Center Terms & Conditions</p></a></li>
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
-					<li style="background: url(<?php echo base_url();?>assets<?php echo base_url();?>assets/img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Recognition</p></a></li>
+					<li style="background: url(<?php echo base_url();?>assets/img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Recognition</p></a></li>
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
 					<li style="background: url(<?php echo base_url();?>assets/img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Centers List</p></a></li>
 					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
 					<li style="background: url(<?php echo base_url();?>assets/img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">Approval Downloads</p></a></li>
-<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
-<li style="background: url(/img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">All Centers</p></a></li>
-					
+					<hr style="border-top: 1px solid blue;border-bottom: 1px solid #0088cc;margin:0px">
+					<li style="background: url(<?php echo base_url();?>assets/img/bullet1.gif) no-repeat 5px 2px;padding-left:20px"><a href="#"  style="color:black" ><p style="color:black;padding-left:15px;font-weight:600;margin-top:10px">All Centers</p></a></li>
+										
 					</ul></div>                        </div>
 						
 						</div>
