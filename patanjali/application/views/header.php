@@ -18,10 +18,8 @@
      <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
      <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
      <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/source/jsCalendar.css">
-             
-
-             
-
+            
+           
         <!-- jsCalendar -->
         <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
        <link rel="stylesheet" href="<?php echo base_url();?>assets/css/calendar.css"/>

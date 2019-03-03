@@ -3,19 +3,12 @@
    <!-- start: Meta -->
     <meta charset="utf-8">
     <title>Rural Urban Council of Skills & Vocational Studies- RUCSVS, Delhi</title> 
-    <meta name="description" content="Rural Urban Council of Skills & Vocational Studies have been run under the Rural Urban Skill Development & Educational Trust, Registered by NCT of Delhi, Trust Act. Early Childhoo & Vocational Training & Education Institute in Delhi.">
-    <meta name="keywords" content="Rural Urban Council of Skills & Vocational Studies | RUCSVS | NTT Delhi | PTT Delhi | NPTT Delhi | Vocational Courses Delhi | Early Childhood Courses Delhi">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    
         <link rel="shortcut icon" href="<?php echo base_url();?>assets/img/rucsvsicon.png" />
-    <link href="<?php echo base_url();?>assets/css/bootstrap.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>assets/css/bootstrap-responsive.css" rel="stylesheet">
+   
     <link href="<?php echo base_url();?>assets/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
-    <link rel="stylesheet" type="text/css" href="source/jsCalendar.css">
-
+  
         <!-- jsCalendar -->
         <script type="text/javascript" src="source/jsCalendar.js"></script>
 
@@ -27,6 +20,8 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-124030743-1');
+
+    
 </script>
 
        
